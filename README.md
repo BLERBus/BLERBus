@@ -23,7 +23,7 @@ CREATE TABLE User(
 CREATE TABLE StatusOnibus(
   linha     VARCHAR(50) not null,
   ponto     VARCHAR(50),
-  horario   VARVHAR(50),
+  horario   VARCHAR(50),
   lotação   VARCHAR(50)
   );
 ```
