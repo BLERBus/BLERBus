@@ -7,7 +7,7 @@ use blerbus;
 
 ### Tabela Users:
 ```mysql
-CREATE TABLE Users(
+CREATE TABLE User(
   id              INT(11) not null auto_increment,
   username        VARCHAR(50) not null,
   email           VARCHAR(50),
