@@ -31,7 +31,7 @@ CREATE TABLE StatusOnibus(
 ### Tabela Linhas de Onibus:
 ```mysql
 CREATE TABLE Linha(
-  numero  VARHCAR(50),
+  numero  VARCHAR(50),
   linha   VARCHAR(50)
 );
 ```
