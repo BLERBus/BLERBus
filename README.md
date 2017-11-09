@@ -2,7 +2,7 @@
 
 ### Database:
 ```
-use ......
+use blerbus;
 ```
 
 ### Tabela Users:
@@ -21,7 +21,7 @@ CREATE TABLE Users(
 ### Tabela Status de Onibus:
 ```
 CREATE TABLE StatusOnibus(
-  linha     VARCHAR(30),
+  linha     VARCHAR(30) not null,
   ponto     VARCHAR(30),
   horario   VARVHAR(10),
   lotação   VARCHAR(20)
@@ -31,8 +31,8 @@ CREATE TABLE StatusOnibus(
 ### Tabela Linhas de Onibus:
 ```
 CREATE TABLE Linha(
-  numero
-  linha
+  numero  VARHCAR(30),
+  linha   VARCHAR(30)
 );
 ```
 
@@ -40,7 +40,7 @@ CREATE TABLE Linha(
 ```
 CREATE TABLE Forum(
   id          INT(11) not null auto_increment,
-  pergunta    VARCHAR(255),
+  pergunta    VARCHAR(255) not null,
   respostas   VARCHAR(255),
   PRIMARY KEY (ID)
 );
