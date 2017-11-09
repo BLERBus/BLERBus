@@ -29,14 +29,6 @@ CREATE TABLE StatusOnibus(
   );
 ```
 
-### Tabela Linhas de Onibus:
-```mysql
-CREATE TABLE Linha(
-  numero  VARCHAR(50),
-  linha   VARCHAR(50)
-);
-```
-
 ### Tabela Forum:
 ```mysql
 CREATE TABLE Forum(
