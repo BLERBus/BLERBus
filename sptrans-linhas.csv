@@ -1,0 +1,1037 @@
+codigo,Linha_Atual_Ref,Denominacao_provisoria,Nivel_de_rede,Tipo_de_linha,Modelo_operacional
+LPR-01-17-01,209P-10,Cachoeirinha  -  Term. Pinheiros,Estrutural,Perimetral,Base
+LPR-01-03-02,8194-10,Perus  -  Term. Cachoeirinha,Estrutural,Perimetral,Base
+LPR-01-04-03,971D-10,Jd. Damasceno  -  Center Norte,Estrutural,Perimetral,Base
+LPR-01-03-04,,Perus - Santana (via Av. Cantidio Sampaio),Estrutural,Perimetral,Base
+LPR-02-03-01,,Tucuruvi-Pirituba,Estrutural,Perimetral,Base
+LPR-02-03-02,,Terminal Pirituba - Terminal Santana (via Nossa S. do Ó),Estrutural,Perimetral,Base
+LPR-02-19-03,,Terminal Lapa - Metrô Santa Cruz (via Vila Leopoldina),Estrutural,Perimetral,Base
+LPR-03-04-01,971X-10,Terminal Cachoeirinha  -  Metrô Santana,Estrutural,Perimetral,Base
+LPR-03-16-02,,Tucuruvi - Lapa,Estrutural,Perimetral,Base
+LPR-03-17-03,,Santana - Pinheiros (via Av. Sumaré),Estrutural,Perimetral,Base
+LPR-03-11-04,,Metrô Santana - Metrô Conceição (via Av. Brasil),Estrutural,Perimetral,Base
+LPR-04-21-01,,Pq. Edu Chaves - Metrô Bresser (via Júlio Buono / Joaquina Ramalho),Estrutural,Perimetral,Base
+LPR-05-05-01,2059-10,Sao Miguel  -  Guaianazes,Estrutural,Perimetral,Base
+LPR-05-05-02,2202-10,Hospital Itaim  -  Guaianazes,Estrutural,Perimetral,Base
+LPR-05-08-03,233A-10,Jd. Helena - Term. Carrão,Estrutural,Perimetral,Base
+LPR-05-07-04,,Terminal São Mateus - CPTM Itaim (via Dom João Nery),Estrutural,Perimetral,Base
+LPR-05-09-05,,Terminal Sapopemba - Terminal São Miguel (via Av. Pires do Rio),Estrutural,Perimetral,Base
+LPR-05-07-06,,Terminal Cidade Tiradentes - Terminal São Miguel (via Av. Nordestina),Estrutural,Perimetral,Base
+LPR-05-09-07,,Terminal São Mateus - Terminal São Miguel (via Jacú Pêssego),Estrutural,Perimetral,Base
+LPR-06-08-01,,T. Carrão - Ermelino Matarazzo,Estrutural,Perimetral,Base
+LPR-06-03-02,,Penha - T. Cachoeirinha (Via Santana),Estrutural,Perimetral,Base
+LPR-06-03-03,,Penha - T. Cachoeirinha,Estrutural,Perimetral,Base
+LPR-07-07-01,3063-10,Guaianazes  -  Term. Sao Mateus,Estrutural,Perimetral,Base
+LPR-07-07-02,3064-10,Cid. Tiradentes  -  Est. Guaianazes,Estrutural,Perimetral,Base
+LPR-07-07-03,3743-10,Term. São Mateus - Metrô Itaquera,Estrutural,Perimetral,Base
+LPR-07-05-04,,Cptm São Miguel - T. Cidade Tiradentes,Estrutural,Perimetral,Base
+LPR-08-03-01,,Tuccuruvi - T. Carrão,Estrutural,Perimetral,Base
+LPR-09-06-01,,T. Vila Carrão - T. Penha (Via Salim F. Maluf),Estrutural,Perimetral,Base
+LPR-09-06-02,,T. Sapopemba - Ermelino Matarazzo,Estrutural,Perimetral,Base
+LPR-09-16-03,,Ipiranga - Vila Leopoldina (Via Av. Brasil),Estrutural,Perimetral,Base
+LPR-09-04-04,,T. Vila Prudente - Santana,Estrutural,Perimetral,Base
+LPR-09-18-05,,Mandaqui - Metrô Conceição (via Av. Brasil),Estrutural,Perimetral,Base
+LPR-09-11-06,,Terminal Vila Prudente - Metrô São Judas (via Av. Tancredo Neves),Estrutural,Perimetral,Base
+LPR-10-16-01,874T-10,Sacomã - Lapa,Estrutural,Perimetral,Base
+LPR-10-16-02,,T. Lapa - T. Sacomã,Estrutural,Perimetral,Base
+LPR-10-03-03,,Term. Sacomã - Term. Santana  (via Salim Farah Maluf),Estrutural,Perimetral,Base
+LPR-11-18-01,546T-10,Vila Guacuri  -  Term. Santo Amaro,Estrutural,Perimetral,Base
+LPR-11-18-02,607C-10,Jd. Miriam  -  Shopping Morumbi,Estrutural,Perimetral,Base
+LPR-11-14-03,,Terminal Campo Limpo - Pedreira,Estrutural,Perimetral,Base
+LPR-12-17-01,637G-10,Grajau  - Tronco Grajaú  (Pinheiros),Estrutural,Perimetral,Base
+LPR-13-11-01,5129-10,Jd. Miriam - T. Guarapiranga (Via Cupecê / Washington Luís),Estrutural,Perimetral,Base
+LPR-13-17-02,637A-10,Term. Jd. Angela  -  Term. Pinheiros,Estrutural,Perimetral,Base
+LPR-13-17-03,709P-10,Est. Sto. Amaro (Av. Guido Caloi) -  Term. Pinheiros,Estrutural,Perimetral,Base
+LPR-14-17-01,648P-10,Term. Capelinha  - Giovanni (Faria Lima),Estrutural,Perimetral,Base
+LPR-14-18-02,807A-10,Terminal Campo Limpo  -  Term. Santo Amaro,Estrutural,Perimetral,Base
+LPR-15-13-01,,Raposo - T. João Dias,Estrutural,Perimetral,Base
+LPR-15-11-02,,Jabaquara - Sh. Butantã (Via Pt. do Morumbi),Estrutural,Perimetral,Base
+LPR-15-11-03,,T. Jabaquara - Butantã,Estrutural,Perimetral,Base
+LPR-15-09-04,,T. Vila Prudente - Pinheiros (Via Av. Dos Bandeirantes),Estrutural,Perimetral,Base
+LPR-15-18-05,,Parque Continental - Shopping Morumbi,Estrutural,Perimetral,Base
+LPR-15-02-06,,Terminal Pirituba - Raposo (via Gastão Vidigal),Estrutural,Perimetral,Base
+LPR-16-17-01,,T. Lapa - T. Pinheiros (Via Marginais),Estrutural,Perimetral,Base
+LPR-17-20-01,477A-10,T. Sacomã - T. Pinheiros (Via Sta Cruz / Pedro de Toledo),Estrutural,Perimetral,Base
+LPR-17-19-02,,Terminal Pinheiros - Metrô Santa Cruz (via Av. Faria Lima),Estrutural,Perimetral,Base
+LPR-18-17-01,637P-10,Term. Santo Amaro  -  Term. Pinheiros,Estrutural,Perimetral,Base
+LPR-18-17-02,,T. Santo Amaro - T. Pinheiros,Estrutural,Perimetral,Base
+LPR-18-09-03,,T. Vila Prudente - Est. Berrini Cptm (Via Bandeirantes),Estrutural,Perimetral,Base
+LPR-18-11-04,,Metrô São Judas - CPTM Berrini (via Av. Roberto Marinho),Estrutural,Perimetral,Base
+LPR-19-16-01,875H-10,Terminal  Lapa  -  Metrô Vila Mariana,Estrutural,Perimetral,Base
+LPR-19-02-02,917H-10,Term. Pirituba - Metrô Ana Rosa,Estrutural,Perimetral,Base
+LPR-19-16-03,,T. Lapa - Metrô Santa Cruz,Estrutural,Perimetral,Base
+LPR-20-17-01,,Parque Do Povo - Ipiranga,Estrutural,Perimetral,Base
+LRE-01-20-01,8622-10,Term. Jd. Britônia - Pça.Ramos de Azevedo,Estrutural,Radial (Centro),Reforço Pico
+LRE-02-20-01,129F-41,Conexao Petronio Protela - Praca do Correio,Estrutural,Radial (Centro),Reforço Pico
+LRE-02-20-02,8400-10,Terminal Pirituba  -  Pç Ramos De Azevedo,Estrutural,Radial (Centro),Base
+LRE-02-20-03,8600-10,Terminal Pirituba  -  Lgo. do Paissandu,Estrutural,Radial (Centro),Base
+LRE-03-20-01,178L-10,Lauzane Paulista  - Terminal Princesa Isabel,Estrutural,Radial (Centro),Base
+LRE-03-20-02,9500-10,Term. Cachoeirinha  -  Paissandu,Estrutural,Radial (Centro),Base
+LRE-03-20-03,9501-10,T.T.V.N.Cachoeirinha  -  Paissandu,Estrutural,Radial (Centro),Base
+LRE-03-20-04,9653-10,Pedra Branca  -  Lgo. Do Paissandu,Estrutural,Radial (Centro),Base
+LRE-04-17-01,106A-10,Metrô Santana  -  Itaim Bibi,Estrutural,Radial (Centro),Base
+LRE-04-10-02,174M-10,Metrô Santana - Terminal Sacoma,Estrutural,Radial (Centro),Base
+LRE-04-11-03,175T-10,Metrô Santana - Metrô Jabaquara,Estrutural,Radial (Centro),Base
+LRE-04-20-04,9300-10,Term. Casa Verde  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-05-20-01,1178-31,São Miguel - Terminal Bandeira,Estrutural,Radial (Centro),Reforço Pico
+LRE-05-20-02,2552-10,Vila Mara  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-05-20-03,2552-41,Jd. São Martinho - Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Reforço Pico
+LRE-05-20-04,2582-10,Vila Nova Curuça  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Reforço Pico
+LRE-05-20-05,2626-10,Jd. Nazarú - Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-05-20-06,2666-10,Jd. Camargo Velho  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-05-20-07,2678-10,Oliveirinha  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Reforço Pico
+LRE-05-20-08,3301-10,Term. São Miguel  -  Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-05-20-09,3459-10,Itaim Paulista  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-06-20-01,1177-10,Term. A.E. Carvalho  -  Estação Da Luz,Estrutural,Radial (Centro),Base
+LRE-06-20-02,1177-31,Term. A. E. Carvalho  -  Estação Da Luz,Estrutural,Radial (Centro),Reforço Pico
+LRE-06-20-03,1178-32,Abel Tavares - Praça do Correio,Estrutural,Radial (Centro),Reforço Pico
+LRE-06-20-04,208V-10,Term. A.E.Carvalho  -  Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-06-20-05,2460-10,Cemitúrio da Saudade - Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Reforço Pico
+LRE-06-20-06,2551-10,Term. A. E. Carvalho - Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-06-20-07,4E-08,Term. Penha  -  Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-07-20-01,3141-10,Term. Sao Mateus  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-07-20-02,4210-10,Term. Cidade Tiradentes - Term. Pq. Dom Pedro II,Estrutural,Radial (Centro),Base
+LRE-07-20-03,4310-10,E. T. Itaquera  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-07-20-04,4311-10,Term. São Mateus  -  Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-07-20-05,4313-10,Term. Cid. Tiradentes  -  Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-07-20-06,5110-10,Term. São Mateus  -  Term. Mercado,Estrutural,Radial (Centro),Base
+LRE-08-20-01,3414-10,Vila Dalila  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-08-20-02,4315-10,Term. Vila Carrão  -  Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-09-20-01,5109-10,Term. Vila Prudente   -  Term. Mercado,Estrutural,Radial (Centro),Base
+LRE-09-20-02,5143-10,Term. Sapopemba -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-10-20-01,4491-10,Zoologico - Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-10-20-02,5104-10,Term. Sacoma  -  Pça. da Republica,Estrutural,Radial (Centro),Reforço Pico
+LRE-10-20-03,5105-10,Term. Sacoma  -  Term. Mercado,Estrutural,Radial (Centro),Base
+LRE-11-20-01,509M-10,Jd. Miriam - T. Princ. Isabel (Via Cupecê / Washington Luis),Estrutural,Radial (Centro),Base
+LRE-11-20-02,5131-10,Cidade Ademar  -  Metrô Brás,Estrutural,Radial (Centro),Reforço Pico
+LRE-11-20-03,5290-10,Div. Diadema  -  Pca. Joao Mendes,Estrutural,Radial (Centro),Base
+LRE-11-20-04,5611-10,Eldorado  -  Pça. João Mendes,Estrutural,Radial (Centro),Base
+LRE-11-20-05,6358-10,Jd. Luso - Term. Bandeira,Estrutural,Radial (Centro),Base
+LRE-12-20-01,5362-10,Pq. Res. Cocaia - Pça da Sú,Estrutural,Radial (Centro),Reforço Pico
+LRE-12-20-02,5370-10,Term. Varginha - Lgo. São Francisco,Estrutural,Radial (Centro),Base
+LRE-12-20-03,5630-10,Terminal Grajaú  -  Metrô Brás,Estrutural,Radial (Centro),Base
+LRE-12-20-04,5630-21,Cidade Dutra - Lgo. São Francisco,Estrutural,Radial (Centro),Reforço Pico
+LRE-12-20-05,6913-10,Terminal Varginha  -  Terminal Bandeira,Estrutural,Radial (Centro),Base
+LRE-12-20-06,5362-10,Terminal Grajau - Praça da Sé,Estrutural,Radial (Centro),Base
+LRE-13-20-01,5185-10,Term. Guarapiranga  -  Term. Pque. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-13-20-02,5391-10,Jardim Ângela - Lgo. São Francisco,Estrutural,Radial (Centro),Base
+LRE-13-20-03,609F-10,Chacara Santana  -  Pca. Princ. Isabel,Estrutural,Radial (Centro),Reforço Pico
+LRE-13-20-04,6400-10,Term. João Dias - Term. Bandeira,Estrutural,Radial (Centro),Base
+LRE-13-20-05,6403-10,Terminal Joao Dias  -  Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-13-20-06,6505-10,Term. Guarapiranga  -  Term. Bandeira,Estrutural,Radial (Centro),Base
+LRE-14-20-01,5119-10,Term. Capelinha  -  Lgo. Sao Francisco,Estrutural,Radial (Centro),Base
+LRE-14-20-02,6450-10,Term. Capelinha - Term. Bandeira,Estrutural,Radial (Centro),Base
+LRE-14-20-03,6450-51,Valo Velho - Term. Bandeira,Estrutural,Radial (Centro),Reforço Pico
+LRE-14-20-04,6451-10,Term. Capelinha  -  Term. Bandeira,Estrutural,Radial (Centro),Base
+LRE-14-20-05,6455-10,Term. Capelinha  -  Lgo. Sao Francisco,Estrutural,Radial (Centro),Reforço Pico
+LRE-14-20-06,8605-10,Terminal Campo Limpo  -  Terminal Bandeira,Estrutural,Radial (Centro),Base
+LRE-14-20-07,8700-10,Terminal Campo Limpo  -  Pça. Ramos De Azevedo,Estrutural,Radial (Centro),Base
+LRE-15-20-01,7458-10,Jd. Boa Vista  -  Estação Da Luz,Estrutural,Radial (Centro),Reforço Pico
+LRE-15-20-02,8705-10,Shopping Continental  -  Anhangabau,Estrutural,Radial (Centro),Base
+LRE-15-20-03,8707-10,Rio Pequeno  -  Terminal Princesa Isabel,Estrutural,Radial (Centro),Base
+LRE-17-20-01,5178-10,Parque do Ibirapuera - Terminal Parque Dom Pedro,Estrutural,Radial (Centro),Base
+LRE-17-20-02,6262-10,Terminal Pinheiros - Term. Bandeira,Estrutural,Radial (Centro),Base
+LRE-18-20-01,5111-10,Term. Sto. Amaro  -  Term. Pq.D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-18-20-02,5300-10,Term. Santo Amaro  -  Term. Pq. D. Pedro II,Estrutural,Radial (Centro),Base
+LRE-18-20-03,6200-10,Term. Santo Amaro  -  Term. Bandeira,Estrutural,Radial (Centro),Base
+LRE-18-20-04,6500-10,Term. Sto. Amaro  -  Term. Bandeira,Estrutural,Radial (Centro),Base
+LRE-18-20-05,669A-10,Term. Sto. Amaro  -  Term. Princ. Isabel,Estrutural,Radial (Centro),Reforço Pico
+LRE-18-20-06,7600-10,Term. Sto. Amaro - Term. Bandeira via Berrini,Estrutural,Radial (Centro),Base
+LRE-18-20-07,,T. Princ. Isabel - Pq. Do Povo (Via Marginal),Estrutural,Radial (Centro),Base
+LRE-20-17-01,477B-10,Term. Pinheiros - Pq. D. Pedro,Estrutural,Radial (Centro),Base
+LRE-20-21-02,702C-10,Belem - Republica,Estrutural,Radial (Centro),Base
+LRE-20-16-03,8000-10,Terminal Lapa  -  Pca.Ramos de Azevedo,Estrutural,Radial (Centro),Base
+LRE-20-17-04,909T-10,Terminal Pinheiros  -  Term. Pq. D.Pedro II,Estrutural,Radial (Centro),Base
+LRE-20-16-05,,Ipiranga - Barra Funda (Via Av. Brasil),Estrutural,Radial (Centro),Base
+LRG-01-16-01,8050-10,T. Jd. Britônia  -  Lapa,Estrutural,Radial (Polo  Regional),Base
+LRG-02-16-01,129F-10,Conexao Petronio Protela - Metro Barra Funda,Estrutural,Radial (Polo  Regional),Base
+LRG-02-16-02,8200-10,Terminal Pirituba  -  Terminal Lapa,Estrutural,Radial (Polo  Regional),Base
+LRG-02-16-03,8500-10,Terminal Pirituba  -  Metrô Barra Funda,Estrutural,Radial (Polo  Regional),Base
+LRG-03-16-01,938L-10,T.T.V.N.Cachoeirinha  -  Lapa,Estrutural,Radial (Polo  Regional),Base
+LRG-03-16-02,978A-10,T.T.V.N.Cachoeirinha  -  Metrô Barra Funda,Estrutural,Radial (Polo  Regional),Base
+LRG-05-06-01,2076-10,Term. São Miguel - Term. Penha,Estrutural,Radial (Polo  Regional),Base
+LRG-07-21-01,3539-10,Cidade Tiradentes - Metrô Bresser,Estrutural,Radial (Polo  Regional),Base
+LRG-07-07-02,3785-10,Term. Cid. Tiradentes - Metrô Itaquera,Estrutural,Radial (Polo  Regional),Base
+LRG-07-07-03,3789-10,Term. Cid. Tiradentes - Metrô Itaquera (via Carmo),Estrutural,Radial (Polo  Regional),Base
+LRG-07-07-04,4018-10,Metalúrgicos  -  Term. Sao Mateus,Estrutural,Radial (Polo  Regional),Base
+LRG-07-21-05,407K-10,Term São Mateus  -  Metrô Carrão,Estrutural,Radial (Polo  Regional),Base
+LRG-07-08-06,407N-10,Term. Cid. Tiradentes  -  Metrô Penha,Estrutural,Radial (Polo  Regional),Base
+LRG-07-08-07,407N-21,Jardim Roseli - Metrô Penha,Estrutural,Radial (Polo  Regional),Reforço Pico
+LRG-07-21-08,407P-10,Term. Cid. Tiradentes  -  Metrô Tatuapú,Estrutural,Radial (Polo  Regional),Base
+LRG-07-09-09,5110-41,São Mateus  -  Metrô Tamanduateí,Estrutural,Radial (Polo  Regional),Reforço Pico
+LRG-08-21-01,407R-10,Term. Vila Carrão  -  Metrô Belúm,Estrutural,Radial (Polo  Regional),Base
+LRG-12-18-01,6000-10,Term. Parelheiros  -  Term. Sto. Amaro,Estrutural,Radial (Polo  Regional),Base
+LRG-12-11-02,6078-10,Terminal Grajau - Shopping Interlagos,Estrutural,Radial (Polo  Regional),Reforço Pico
+LRG-12-19-03,675X-10,Terminal Grajau  -  Metrô V. Mariana,Estrutural,Radial (Polo  Regional),Base
+LRG-12-11-04,695X-10,Terminal Varginha  -  Metrô Jabaquara,Estrutural,Radial (Polo  Regional),Base
+LRG-12-19-05,695Y-10,Term. Parelheiros  -  Metrô Vila Mariana,Estrutural,Radial (Polo  Regional),Reforço Pico
+LRG-12-18-06,6960-10,Terminal Varginha  -  Terminal Santo Amaro,Estrutural,Radial (Polo  Regional),Base
+LRG-12-18-07,6970-10,Terminal Grajau  -  Terminal Santo Amaro,Estrutural,Radial (Polo  Regional),Base
+LRG-13-19-01,675I-10,Terminal Joao Dias  -  Metrô São Judas,Estrutural,Radial (Polo  Regional),Base
+LRG-13-19-02,675K-10,Term. Jd. Angela  -  Metrô Sta Cruz,Estrutural,Radial (Polo  Regional),Base
+LRG-13-17-03,677A-10,Term Jd Ângela  -  Henrique Chamma,Estrutural,Radial (Polo  Regional),Base
+LRG-13-19-04,707A-10,Jd. Ângela - Metrô Pça. da Árvore,Estrutural,Radial (Polo  Regional),Reforço Pico
+LRG-13-18-05,737A-10,Term Jd Ângela  -  Term  Sto Amaro,Estrutural,Radial (Polo  Regional),Base
+LRG-14-18-01,6001-10,Term. Capelinha  -  Term Santo Amaro,Estrutural,Radial (Polo  Regional),Base
+LRG-14-19-02,695T-10,Term. Capelinha  -  Metrô Vila Mariana,Estrutural,Radial (Polo  Regional),Base
+LRG-14-17-03,809P-10,Terminal Campo Limpo  -  Term. Pinheiros,Estrutural,Radial (Polo  Regional),Base
+LRG-14-17-04,857P-10,Terminal Campo Limpo  -  Paraiso,Estrutural,Radial (Polo  Regional),Base
+LTR-07-20-01,2290-10,Term. São Mateus  -  Term. Pq. D. Pedro II,Estrutural,Trólebus,Base
+LTR-07-06-02,342M-10,Term. São Mateus  -  Term. Penha,Estrutural,Trólebus,Base
+LTR-08-20-01,2100-10,Term. Vila Carrão  -  Pca. da Sú,Estrutural,Trólebus,Base
+LTR-08-20-02,3139-10,Jd. Vila Formosa  -  Pça João Mendes,Estrutural,Trólebus,Base
+LTR-08-08-03,3139-31,Jd. Vila Formosa  -  Praça da República,Estrutural,Trólebus,Reforço Pico
+LTR-09-20-01,3160-10,Term. Vila Prudente  -  Term. Pq. D. Pedro II,Estrutural,Trólebus,Base
+LTR-10-10-01,4113-10,Gentil De Moura  -  Pca. Da República,Estrutural,Trólebus,Base
+LTR-19-19-01,4112-10,Sta. Margarida Maria  -  Pca. Da República,Estrutural,Trólebus,Base
+LTR-20-20-01,2002-10,Term. Pq. D.Pedro II  -  Term. Bandeira,Estrutural,Trólebus,Base
+LAR-01-02-01,1017-10,Perus  -  Vila Iorio,Local,Articulação Regional,Base
+LAR-01-02-02,1021-10,Cohab Brasilôndia  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-01-02-03,1024-10,Jardim Carombe - Conexao Petronio Portela,Local,Articulação Regional,Base
+LAR-01-02-04,1025-10,Jardim Carombe - Conexao Petronio Portela,Local,Articulação Regional,Base
+LAR-01-02-05,8006-10,Jd Donaria  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-01-02-06,8009-10,Cid. D'Abril 3 Gleba  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-01-02-07,8015-10,Cemitúrio De Perus  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-01-02-08,8016-10,Jd Rincao  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-01-16-09,8040-10,Sol Nascente  -  Lapa,Local,Articulação Regional,Base
+LAR-01-16-10,8047-10,Jaragua  -  Lapa,Local,Articulação Regional,Base
+LAR-01-17-11,8047-41,Jaragua - Metrô Vila Madalena,Local,Articulação Regional,Reforço Pico
+LAR-01-04-12,819A-10,Estação Cptm Vila Aurora  -  Jd. Primavera,Local,Articulação Regional,Base
+LAR-01-16-13,819R-10,Perus  -  Term Lapa,Local,Articulação Regional,Base
+LAR-01-20-14,8215-10,Jardim Paulistano - Praça do Correio,Local,Articulação Regional,Base
+LAR-01-02-15,848L-10,Recanto dos Humildes  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-01-20-16,8528-10,Jd. Guarani  -  Pca. Do Correio,Local,Articulação Regional,Base
+LAR-01-02-17,8544-10,Cid. D'Abril 3.Gleba  - T. Pirituba,Local,Articulação Regional,Base
+LAR-01-16-18,8545-10,Penteado  -  Metrô Barra Funda,Local,Articulação Regional,Base
+LAR-01-16-19,8549-10,Taipas  - Lapa,Local,Articulação Regional,Base
+LAR-01-16-20,8696-41,Jaraguá - Lapa,Local,Articulação Regional,Reforço Pico
+LAR-01-03-21,9004-10,Jd. Elisa Maria  -  T.T.V.N.Cachoeirinha,Local,Articulação Regional,Base
+LAR-01-03-22,9005-10,Jd. Princesa  -  T.T.V.N.Cachoeirinha,Local,Articulação Regional,Base
+LAR-01-03-23,9005-41,Jd. Vista Alegre  -  T.T.V.N.Cachoeirinha,Local,Articulação Regional,Reforço Pico
+LAR-01-03-24,9005-42,Sítio Dos Francos  -  T.T.V.N. Cachoeirinha,Local,Articulação Regional,Reforço Pico
+LAR-01-03-25,9006-10,Vila Penteado  -  T.T.V.N.Cachoeirinha,Local,Articulação Regional,Base
+LAR-01-03-26,9009-10,Cohab Brasilôndia  -  T.T.V.N.Cachoeirinha,Local,Articulação Regional,Base
+LAR-01-02-27,9019-10,Jd Paulistano  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-01-02-28,9023-10,Pq. De  Taipas  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-01-04-29,9090-10,Pq. Tiete  -  Term. Casa Verde,Local,Articulação Regional,Base
+LAR-01-16-30,9181-10,Vila Terezinha  -  Lapa,Local,Articulação Regional,Base
+LAR-01-02-31,9186-10,Cohab N. Brasilandia  - Pça. Mons. Escrivá,Local,Articulação Regional,Base
+LAR-01-02-32,9188-10,Capela Da Lagoa   - T. Pirituba,Local,Articulação Regional,Base
+LAR-01-16-33,938C-10,Cohab Taipas  - Taipas (Lapa),Local,Articulação Regional,Base
+LAR-01-16-34,938P-10,Jd. Tereza  - Lapa,Local,Articulação Regional,Base
+LAR-01-03-35,938V-10,Jd. Vista Alegre  - Terminal Cachoeirinha,Local,Articulação Regional,Base
+LAR-01-04-36,9717-10,Jd. Almanara  -  Santana,Local,Articulação Regional,Base
+LAR-01-04-37,971C-10,COHAB - Metrô Santana,Local,Articulação Regional,Reforço Pico
+LAR-01-04-38,971R-51,Chica Luisa - Metrô Santana,Local,Articulação Regional,Base
+LAR-01-04-39,971V-10,Jd. Vista Alegre  -  Center Norte,Local,Articulação Regional,Base
+LAR-01-16-40,9784-10,Jd. Dos Francos  -  Barra Funda,Local,Articulação Regional,Base
+LAR-01-16-41,9789-10,Jardim Paulistano - Barra Funda,Local,Articulação Regional,Base
+LAR-02-17-01,199D-10,Vila Iorio  -  Terminal Pinheiros,Local,Articulação Regional,Base
+LAR-02-16-02,8001-10,Vila Piaui  -  Terminal Lapa,Local,Articulação Regional,Base
+LAR-02-16-03,8002-10,Terminal Pirituba  -  Terminal Lapa,Local,Articulação Regional,Base
+LAR-02-16-04,8003-10,Remedios  -  Terminal Lapa,Local,Articulação Regional,Base
+LAR-02-16-05,8004-10,Santa Monica  -  Terminal Lapa,Local,Articulação Regional,Base
+LAR-02-01-06,8010-10,Perus  - Term. Pirituba,Local,Articulação Regional,Base
+LAR-02-01-07,8017-10,Voith  -  Terminal Pirituba,Local,Articulação Regional,Base
+LAR-02-16-08,8060-10,Vila Piaui  -  Terminal Lapa,Local,Articulação Regional,Base
+LAR-02-16-09,8065-10,Vila Clarice  -  Lapa,Local,Articulação Regional,Base
+LAR-02-16-10,8100-10,Terminal Pirituba  -  Terminal Lapa,Local,Articulação Regional,Base
+LAR-02-03-11,8199-10,Pirituba  -  C.V.N. Cachoeirinha,Local,Articulação Regional,Base
+LAR-02-16-12,846M-10,Vila Piauí  - Leopoldina,Local,Articulação Regional,Base
+LAR-02-01-13,847J-10,City Jaragua  - T. Pirituba,Local,Articulação Regional,Base
+LAR-02-17-14,847P-10,Terminal Pirituba  -  Itaim Bibi,Local,Articulação Regional,Base
+LAR-02-03-15,8542-10,Brasilandia  -  Pca. Do Correio,Local,Articulação Regional,Base
+LAR-02-16-16,8677-10,Jd. Libano  -  Lapa,Local,Articulação Regional,Base
+LAR-02-16-17,8677-31,Jardim Libano - Lapa,Local,Articulação Regional,Reforço Pico
+LAR-02-16-18,8686-10,Mangalot - Lapa,Local,Articulação Regional,Base
+LAR-02-16-19,9014-10,Morro Grande  -  Terminal Lapa,Local,Articulação Regional,Base
+LAR-02-16-20,9014-42,Jd Iracema  -  Terminal Lapa,Local,Articulação Regional,Reforço Pico
+LAR-02-16-21,9031-10,Freguesia do O  -  Lapa,Local,Articulação Regional,Base
+LAR-02-16-22,9047-10,Jd. Paulistano  -  Lapa,Local,Articulação Regional,Base
+LAR-02-16-23,917M-10,Morro Grande - HC,Local,Articulação Regional,Base
+LAR-02-01-24,9188-42,Capela Da Lagoa  - Term. Pirituba,Local,Articulação Regional,Reforço Pico
+LAR-02-16-25,958P-10,Jardim Nardidni - Leopoldina,Local,Articulação Regional,Base
+LAR-02-04-26,971M-10,Vila Penteado - Metrô Santana,Local,Articulação Regional,Base
+LAR-02-04-27,,T. Cachoeirinha - T. Pirituba,Local,Articulação Regional,Base
+LAR-03-04-01,1016-10,Cemiterio do Horto  -  Center Norte,Local,Articulação Regional,Base
+LAR-03-04-02,1018-10,Vila Rosa - Metrô Santana,Local,Articulação Regional,Base
+LAR-03-20-03,107T-10,Metrô Tucuruvi  -  Pça. da República,Local,Articulação Regional,Base
+LAR-03-04-04,118Y-10,Lauzane Paulista - Hospital Cachoeirinha,Local,Articulação Regional,Base
+LAR-03-16-05,148P-10,Jardim Pery  -  Term. Barra Funda,Local,Articulação Regional,Reforço Pico
+LAR-03-04-06,1702-10,Jova Rural - Metrô Carandiru,Local,Articulação Regional,Base
+LAR-03-04-07,1703-10,Jardim Fontalis - Canter Norte,Local,Articulação Regional,Base
+LAR-03-04-08,1726-10,Vila Zilda  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-21-09,172K-10,Jd. Tremembe  -  Metrô Tatuapú,Local,Articulação Regional,Reforço Pico
+LAR-03-21-10,172P-10,Vila Zilda  -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-03-21-11,172R-10,Jaçanã  -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-03-21-12,172Y-10,Vila Constança - Metrô Belúm,Local,Articulação Regional,Base
+LAR-03-04-13,1738-10,Vila Cosntancia - Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-14,1741-10,Vila Dionisia  -  Metrô Santana,Local,Articulação Regional,Reforço Pico
+LAR-03-04-15,1742-10,Jd. Antartica  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-16,1743-10,Jd. Pery Alto  -  Metro Santana,Local,Articulação Regional,Base
+LAR-03-04-17,1744-10,Lauzane Paulista  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-18,1745-10,Vl.Nova Cachoeirinha  -  Shop. Center Norte,Local,Articulação Regional,Base
+LAR-03-04-19,1756-10,Pedra Branca  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-20,1758-10,Jd. Antartica  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-21,1759-10,Jd. Pery  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-22,1759-41,Jd. Pery  -  Metrô Santana,Local,Articulação Regional,Reforço Pico
+LAR-03-04-23,1760-10,Cohab Antartica  -  Shop. Center Norte,Local,Articulação Regional,Base
+LAR-03-04-24,1775-10,Vila Albertina - Center Norte,Local,Articulação Regional,Base
+LAR-03-04-25,1783-10,Cachoeira  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-26,1785-10,Vila Aurora - Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-27,1786-10,Vila Albertina  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-28,1787-10,Vila Marieta  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-29,1788-10,Jd. Fontalis  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-03-04-30,1788-51,Jd. Campo Limpo  -  Metrô Santana,Local,Articulação Regional,Reforço Pico
+LAR-03-04-31,178Y-10,Vila Amelia  -  Metrô Jd. São Paulo,Local,Articulação Regional,Base
+LAR-03-01-32,2013-10,Cohab Antartica  -  Cachoeirinha,Local,Articulação Regional,Base
+LAR-03-16-33,2014-10,Jardim Pery Alto - Metro Barra Funda,Local,Articulação Regional,Base
+LAR-03-04-34,2025-10,Vila Nova Galvao  -  Santana,Local,Articulação Regional,Base
+LAR-03-04-35,2026-10,Jacana  -  Pq. Novo Mundo,Local,Articulação Regional,Base
+LAR-03-04-36,2740-10,Pedra Branca - Metrô Santana,Local,Articulação Regional,Base
+LAR-03-01-37,9011-10,Estação Jaragua  -  T.T.V.N.Cachoeirinha,Local,Articulação Regional,Base
+LAR-03-20-38,9354-10,Terminal Cachoeirinha  -  Terminal Correio,Local,Articulação Regional,Base
+LAR-03-16-39,975A-10,Vila Brasilandia  -  Metrô Barra Funda,Local,Articulação Regional,Base
+LAR-03-08-40,,Metro Penha - Tucuruvi,Local,Articulação Regional,Base
+LAR-03-04-41,172K-10,Jd. Tremembe  - T. V. Maria,Local,Articulação Regional,Base
+LAR-04-20-01,1156-10,Vila Sabrina  -  Pca. do Correio,Local,Articulação Regional,Base
+LAR-04-20-02,1156-31,Circular Vila Nadir,Local,Articulação Regional,Reforço Pico
+LAR-04-03-03,118C-10,Jd. Pery Alto  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-04-20-04,119C-10,Vila Sabrina  -  Term.Princesa Isabel,Local,Articulação Regional,Base
+LAR-04-16-05,138Y-10,Hosp. Cachoeirinha  -  Metrô Barra Funda,Local,Articulação Regional,Base
+LAR-04-03-06,1720-10,Jd. Guanca  -  Cantareira,Local,Articulação Regional,Base
+LAR-04-03-07,1722-10,Jd. Marina  -  Metrô Tucuruvi,Local,Articulação Regional,Base
+LAR-04-21-08,172J-10,Jd. Brasil  -  Tatuape,Local,Articulação Regional,Base
+LAR-04-21-09,172N-10,Shop. Center Norte  -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-04-21-10,172N-21,Uninove - Metrô Belúm,Local,Articulação Regional,Reforço Pico
+LAR-04-21-11,172X-10,Pq. Novo Mundo  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-04-03-12,1745-41,Unip (Vila Guilherme) -  Vila Nova Cachoeirinha,Local,Articulação Regional,Reforço Pico
+LAR-04-16-13,175P-10,Metrô Santana  -  Metrô Barra Funda,Local,Articulação Regional,Base
+LAR-04-03-14,1767-10,Edu Chaves  -  Metrô Tucuruvi,Local,Articulação Regional,Base
+LAR-04-16-15,178T-10,Metrô Santana  -  Ceasa,Local,Articulação Regional,Base
+LAR-04-20-16,2010-10,Jardim Brasil  -  Shopping D,Local,Articulação Regional,Base
+LAR-04-03-17,2105-10,Jd. Filhos da Terra  - Metrô Santana,Local,Articulação Regional,Base
+LAR-04-20-18,2161-10,Parque Edu Chaves  -  Praça Do Correio,Local,Articulação Regional,Base
+LAR-04-20-19,2182-10,Jardim Brasil  -  Terminal Parque Dom Pedro,Local,Articulação Regional,Base
+LAR-04-21-20,271F-10,Shop. Center Norte  -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-04-16-21,297A-10,Limão  -  Metrô Barra Funda,Local,Articulação Regional,Base
+LAR-04-20-22,9301-10,Term. Casa Verde  -  Paissandu,Local,Articulação Regional,Base
+LAR-05-06-01,2022-10,Jd. dos Ipês - Term. A. E. Carvalho,Local,Articulação Regional,Base
+LAR-05-06-02,2031-10,Cidade Kemel II  -  Term. A.E. Carvalho,Local,Articulação Regional,Base
+LAR-05-21-03,2080-10,Cid. Kemel  -  Term. Aricanduva,Local,Articulação Regional,Base
+LAR-05-06-04,2523-10,Vila Progresso - Term. Penha,Local,Articulação Regional,Base
+LAR-05-21-05,2583-10,Vila Curuca  -  Term. Aricanduva,Local,Articulação Regional,Reforço Pico
+LAR-05-07-06,263C-10,Jd. Helena - COHAB II,Local,Articulação Regional,Base
+LAR-05-06-07,2702-10,Vila Americana - Metrô Artur Alvim,Local,Articulação Regional,Base
+LAR-05-07-08,2705-10,Jd. Fanganielo  -  Metrô Itaquera,Local,Articulação Regional,Base
+LAR-05-07-09,2707-31,Chabilôndia - Metrô Itaquera,Local,Articulação Regional,Reforço Pico
+LAR-05-07-10,2721-10,Jd. Nazarú - Metrô Itaquera,Local,Articulação Regional,Base
+LAR-05-06-11,273G-10,Jd. Helena  -  Metrô Artur Alvim,Local,Articulação Regional,Base
+LAR-05-06-12,273J-10,Jd. Romano  -  Metrô Penha,Local,Articulação Regional,Base
+LAR-05-08-13,273N-10,Cidade Kemel II - Metrô Vila Matilde,Local,Articulação Regional,Base
+LAR-05-08-14,273N-41,Itaim Paulista - Metrô Vila Matilde,Local,Articulação Regional,Reforço Pico
+LAR-05-06-15,273R-10,Jd. Robru  -  Metrô Artur Alvim,Local,Articulação Regional,Base
+LAR-05-07-16,273R-42,Jd. Robru  -  Metrô Itaquera,Local,Articulação Regional,Reforço Pico
+LAR-05-06-17,273X-10,Jd. Das Oliveiras  -  Metrô Artur Alvim,Local,Articulação Regional,Base
+LAR-05-06-18,2756-10,Guaianazes  -  Metrô Patriarca,Local,Articulação Regional,Base
+LAR-05-07-19,2766-10,Jd. Camargo Velho - Metrô Itaquera,Local,Articulação Regional,Reforço Pico
+LAR-05-07-20,2766-41,Jd. Indaia  -  Metrô Itaquera,Local,Articulação Regional,Reforço Pico
+LAR-05-07-21,2780-10,Jd. Camargo Novo  -  Metrô Itaquera,Local,Articulação Regional,Base
+LAR-05-06-22,307C-10,Conj.Encosta Norte  -  Metrô Artur Alvim,Local,Articulação Regional,Reforço Pico
+LAR-05-07-23,3574-31,Jd. Etelvina - E.T. Itaquera,Local,Articulação Regional,Reforço Pico
+LAR-06-21-01,233C-10,Metrô Itaquera - CERET,Local,Articulação Regional,Base
+LAR-06-20-02,2363-10,Jd. Danfer  -  Terminal Pq. D. Pedro II,Local,Articulação Regional,Base
+LAR-06-21-03,2435-10,Jd. Coimbra - Term. Aricanduva,Local,Articulação Regional,Base
+LAR-06-21-04,2451-10,V. São Francisco - Term. Aricanduva,Local,Articulação Regional,Base
+LAR-06-21-05,2590-10,União de Vila Nova - Term. Aricanduva,Local,Articulação Regional,Base
+LAR-06-07-06,263J-10,Conj. José Bonifacio - Term. A. E. Carvalho,Local,Articulação Regional,Base
+LAR-06-08-07,2718-10,Vila Silvia  -  Metrô Penha,Local,Articulação Regional,Base
+LAR-06-08-08,2719-10,Ermelino Matarazzo  -  Metrô Vila Matilde,Local,Articulação Regional,Base
+LAR-06-04-09,271A-10,Term. Penha  -  Metrô Santana,Local,Articulação Regional,Base
+LAR-06-07-10,2723-10,União de Vila Nova - Metrô Itaquera,Local,Articulação Regional,Base
+LAR-06-08-11,2728-10,Jd. do Castelo  -  Metrô Penha,Local,Articulação Regional,Base
+LAR-06-06-12,2732-10,Metrô Artur Alvim  -  Vila Regina (Circular),Local,Articulação Regional,Base
+LAR-06-07-13,2733-10,Pq. Guarani  -  Metrô Itaquera,Local,Articulação Regional,Base
+LAR-06-08-14,2735-10,Jd. Keralux  -  Metrô Penha,Local,Articulação Regional,Base
+LAR-06-21-15,2762-10,Ermelino Matarazzo - Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-06-21-16,2765-10,Vila Cisper  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-06-21-17,3462-10,Vila Santana  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-06-21-18,3462-41,Jd. Vila Nova - Metrô Tatuapú,Local,Articulação Regional,Reforço Pico
+LAR-06-07-19,3574-41,Vila Taquari  -  E. T. Itaquera,Local,Articulação Regional,Reforço Pico
+LAR-06-06-20,374M-10,CPTM Ermelino Matarazzo  -  Metrô Itaquera,Local,Articulação Regional,Base
+LAR-06-07-21,374V-10,Jd. Santana  -  Metrô Itaquera,Local,Articulação Regional,Base
+LAR-07-05-01,2707-10,Chabilôndia - Metrô Itaquera,Local,Articulação Regional,Base
+LAR-07-06-02,273L-10,CPTM José Bonifácio.  -  Metrô Artur Alvim,Local,Articulação Regional,Base
+LAR-07-08-03,3020-31,ET Itaquera - Shop. C. Aricanduva,Local,Articulação Regional,Reforço Pico
+LAR-07-21-04,3053-10,Jd. Itapolis  -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-07-20-05,3390-10,Term. S. Mateus  -  Term. Pq. D. Pedro II,Local,Articulação Regional,Base
+LAR-07-20-06,3686-10,Jardim São Paulo - Term. Pq. D. Pedro II,Local,Articulação Regional,Reforço Pico
+LAR-07-07-07,3712-41,Jd. Sao Pedro  -  Metrô Itaquera,Local,Articulação Regional,Reforço Pico
+LAR-07-08-08,3736-10,Jd. Nsa. Sra. Do Carmo  -  Metrô Artur Alvim,Local,Articulação Regional,Base
+LAR-07-21-09,3745-10,Jd. Imperador  -  Tatuapú,Local,Articulação Regional,Base
+LAR-07-08-10,4002-10,Guainazes - Term. Vila Carrão,Local,Articulação Regional,Base
+LAR-07-08-11,4007-10,Cohab Juscelino  -  Term Vila Carrão,Local,Articulação Regional,Base
+LAR-07-08-12,4008-10,Jardim Cibele  -  Term. Vila Carrão,Local,Articulação Regional,Base
+LAR-07-08-13,4014-10,Jd. Vila Carrão  -  Term. Vila Carrão,Local,Articulação Regional,Base
+LAR-07-06-14,403A-10,CPTM José Bonifácio - Term. Penha,Local,Articulação Regional,Base
+LAR-07-06-15,407C-10,Inácio Monteiro - Penha,Local,Articulação Regional,Base
+LAR-07-21-16,4E-08,Jd. Santo Andre  -  Metrô Carrão,Local,Articulação Regional,Reforço Pico
+LAR-07-21-17,407F-10,Term. São Mateus  -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-07-21-18,407G-10,Jd. Nova Vitoria  -  Metrô Carrão,Local,Articulação Regional,Base
+LAR-07-21-19,407J-10,Jd. Soares  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-07-06-20,407L-10,Barro Branco  -  Metrô Guilhermina (Esper.),Local,Articulação Regional,Base
+LAR-07-21-21,407W-10,Jd. Iv Centenário  -  Metrô Carrão,Local,Articulação Regional,Base
+LAR-07-09-22,4E-08,Jardim Ester - Term. Sapopemba / Teotônio Vilela,Local,Articulação Regional,Base
+LAR-07-20-23,4314-10,Inácio Monteiro - Term. Pq. D. Pedro II,Local,Articulação Regional,Base
+LAR-07-20-24,519M-10,São Mateus - Museu do Ipiranga,Local,Articulação Regional,Base
+LAR-07-09-25,573T-21,Jd. Tietê - T. Sapopemba/Teotônio Vilela,Local,Articulação Regional,Reforço Pico
+LAR-07-09-26,,T. São Mateus - T. Vila Prudente,Local,Articulação Regional,Base
+LAR-08-21-01,3029-10,Jd. Das Rosas  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-08-21-02,3046-10,Vila Guarani  -  Tatuape,Local,Articulação Regional,Base
+LAR-08-09-03,3134-10,Shop. Aricanduva  -  Metrô Tamanduateí,Local,Articulação Regional,Base
+LAR-08-20-04,3161-10,Jd. Colorado  -  Term. Pq. D.Pedro II,Local,Articulação Regional,Base
+LAR-08-06-05,342C-10,Jd. Marilia  -  Penha,Local,Articulação Regional,Base
+LAR-08-21-06,3729-10,Shop. Aricanduva  -  Metrô Carrão,Local,Articulação Regional,Base
+LAR-08-21-07,372U-10,Vila Santa Isabel  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-08-06-08,3731-10,Shop. Aricanduva  -  Metrô Vila Matilde,Local,Articulação Regional,Base
+LAR-08-21-09,3763-10,Term. Vila Carrao  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-08-21-10,3778-10,Jd. Santa Terezinha  -  Metrô Carrão,Local,Articulação Regional,Base
+LAR-08-21-11,407A-10,Shop. C.L.Aricanduva  -  Largo Da Concórdia,Local,Articulação Regional,Base
+LAR-08-21-12,407I-10,Conj. Manoel da Nóbrega  -  Metrô Bresser,Local,Articulação Regional,Reforço Pico
+LAR-08-20-13,4312-10,Jardim Marília - Term. Pq. D. Pedro II,Local,Articulação Regional,Base
+LAR-08-20-14,575C-10,Ipiranga - Vila Matias,Local,Articulação Regional,Base
+LAR-09-07-01,213C-10,Vila California   - T. São Mateus,Local,Articulação Regional,Base
+LAR-09-07-02,3054-10,Jardim Palanque - Hosp. Sapopemba,Local,Articulação Regional,Base
+LAR-09-20-03,311C-10,Pq. São Lucas - Bom Retiro,Local,Articulação Regional,Base
+LAR-09-20-04,314J-10,Santa Madalena  -  Pça Almeida Jr.,Local,Articulação Regional,Reforço Pico
+LAR-09-20-05,314V-10,Vila Ema  -  Pça Almeida Jr.,Local,Articulação Regional,Base
+LAR-09-08-06,364A-10,Term. Sapopemba - Shop. C. Aricanduva,Local,Articulação Regional,Reforço Pico
+LAR-09-07-07,373T-10,Jardim Itápolis - Term. Vila Prudente,Local,Articulação Regional,Base
+LAR-09-21-08,373T-10,Term. Vila Prudente - Metrô Bresser,Local,Articulação Regional,Base
+LAR-09-21-09,3746-10,Jd. Imperador  -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-09-21-10,3746-31,Jd. Imperador  -  Metrô Belúm,Local,Articulação Regional,Reforço Pico
+LAR-09-21-11,3762-10,Jardim Iva  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-09-21-12,4025-10,Vila Califórnia  -  Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-09-07-13,4033-10,Jd. Guairacá - Nova Conquista,Local,Articulação Regional,Base
+LAR-09-21-14,414P-10,Vila Industrial  - Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-09-21-15,4729-10,Pq. Bancario  -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-09-19-16,476G-10,Jardim Elba  -  Ibirapuera,Local,Articulação Regional,Base
+LAR-09-21-17,507T-10,Term Sapopemba  -  Metrô Carrão,Local,Articulação Regional,Base
+LAR-09-20-18,5144-10,T. Sapopemba/Teotônio Vilela - T. Princ. Isabel,Local,Articulação Regional,Base
+LAR-09-20-19,5145-10,Term. Sapopemba -  Pca. Almeida Jr.,Local,Articulação Regional,Base
+LAR-09-21-20,524L-10,Pq. Sao Lucas   -  Tatuape,Local,Articulação Regional,Base
+LAR-09-08-21,524M-10,Mascarenhas de Morais  -  Shop. Aricanduva,Local,Articulação Regional,Base
+LAR-09-21-22,573H-10,Hosp. Sapopemba  -  Metrô Bresser,Local,Articulação Regional,Base
+LAR-09-21-23,573T-10,Term. Sapopemba -  Metrô Carrão,Local,Articulação Regional,Base
+LAR-09-21-24,574R-10,Term. Sapopemba -  Metrô Belúm,Local,Articulação Regional,Base
+LAR-09-21-25,575A-10,Div. São Caetano  -  Shop. Metrô Tatuapú,Local,Articulação Regional,Base
+LAR-09-21-26,,T. Sapopemba - Teotônio - T. Penha,Local,Articulação Regional,Base
+LAR-09-19-27,,T. Vila Prudente - Metrô Vila Mariana,Local,Articulação Regional,Base
+LAR-10-09-01,364A-10,Hosp. Ipiranga - Term. Sapopemba,Local,Articulação Regional,Base
+LAR-10-19-02,4032-10,Vila das Merces  -  Objetivo UNIP,Local,Articulação Regional,Base
+LAR-10-20-03,4114-10,Vila Gumercindo - Term. Pq. Dom Pedro II,Local,Articulação Regional,Base
+LAR-10-20-04,4114-31,Vila Gumercindo - Term. Pq. Dom Pedro II,Local,Articulação Regional,Reforço Pico
+LAR-10-19-05,4706-10,Jd. Maria Estela - Metrô Vila Mariana,Local,Articulação Regional,Base
+LAR-10-19-06,4708-10,Jardim Climax - Metrô Vila Mariana,Local,Articulação Regional,Base
+LAR-10-19-07,4709-10,Jd. São Saverio  -  Metrô Vila Mariana,Local,Articulação Regional,Base
+LAR-10-19-08,4716-10,Sacoma  -  Metrô Santa Cruz,Local,Articulação Regional,Base
+LAR-10-19-09,4721-10,Shop. Plaza Sul - Praça da Árvore,Local,Articulação Regional,Base
+LAR-10-19-10,4727-10,Jd. Climax  -  Metrô Pça. da Árvore,Local,Articulação Regional,Base
+LAR-10-19-11,4732-10,Vila Livieiro - Metrô Saúde,Local,Articulação Regional,Base
+LAR-10-19-12,4732-31,Vila Liviero  -  Metrô Saúde,Local,Articulação Regional,Reforço Pico
+LAR-10-19-13,4734-10,Vila Moraes  -  Metrô Saúde,Local,Articulação Regional,Base
+LAR-10-20-14,475R-10,Jardim São Savúrio - Term. Pq. D. Pedro II,Local,Articulação Regional,Base
+LAR-10-19-15,477U-10,Heliópolis  -  Metrô Vila Mariana,Local,Articulação Regional,Base
+LAR-10-20-16,5107-10,Term. Sacoma  -  Term. Correio,Local,Articulação Regional,Base
+LAR-10-20-17,5108-10,Jd. Celeste  -  Term. Pq. D. Pedro II,Local,Articulação Regional,Base
+LAR-10-21-18,513L-10,Term. Sacoma  -  Pq. Belem,Local,Articulação Regional,Base
+LAR-10-19-19,5705-10,Term. Sacomã - Metrô Vila Mariana,Local,Articulação Regional,Base
+LAR-11-18-01,5011-10,Eldorado  -  Santo Amaro,Local,Articulação Regional,Base
+LAR-11-18-02,5013-10,Jd. Luso  -  Santo Amaro,Local,Articulação Regional,Base
+LAR-11-18-03,5013-31,Jardim Miriam  -  Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-11-18-04,5024-10,Missionaria  -  Santo Amaro,Local,Articulação Regional,Base
+LAR-11-18-05,5024-31,Missionaria  -  Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-11-19-06,5106-31,Jardim Selma - Metrô Ana Rosa,Local,Articulação Regional,Reforço Pico
+LAR-11-18-07,517J-10,Jd. Selma  -  Berrini,Local,Articulação Regional,Base
+LAR-11-18-08,527R-10,Vila Imperio  -  Terminal Santo Amaro,Local,Articulação Regional,Base
+LAR-11-18-09,546A-31,Jd. Apura  -  Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-11-18-10,546J-10,Jd. Selma  -  Sto. Amaro,Local,Articulação Regional,Base
+LAR-11-18-11,546J-31,Jd. Selma  -  Sto. Amaro,Local,Articulação Regional,Reforço Pico
+LAR-11-18-12,546L-10,Jd. Luso  -  Terminal Santo Amaro,Local,Articulação Regional,Base
+LAR-11-12-13,5652-10,Jd. Iv Centenario  -  Pça da Sé,Local,Articulação Regional,Base
+LAR-11-18-14,5701-10,Metrô Conceição  -  Estacao Berrini,Local,Articulação Regional,Base
+LAR-11-08-15,574J-10,Metrô Conceição  -  Term. V. Carrao,Local,Articulação Regional,Base
+LAR-11-18-16,576C-10,Metrô Jabaquara  -  Term. Santo Amaro,Local,Articulação Regional,Base
+LAR-11-17-17,576M-10,Jabaquara - Pinheiros,Local,Articulação Regional,Base
+LAR-11-19-18,577T-10,Jd. Miriam  -  Metrô Ana Rosa,Local,Articulação Regional,Base
+LAR-11-12-19,607A-10,Jd. Apurá - Socorro,Local,Articulação Regional,Base
+LAR-11-20-20,6366-10,Jd. Miriam  -  Term. Bandeira,Local,Articulação Regional,Base
+LAR-11-13-21,675Z-10,Terminal Guarapiranga  -  Metrô Jabaquara,Local,Articulação Regional,Base
+LAR-11-12-22,695D-10,Jd. Sta. Barbara  -  Shopping Interlagos,Local,Articulação Regional,Base
+LAR-11-16-23,875A-10,Aeroporto - Perdizes (via Aratãs),Local,Articulação Regional,Base
+LAR-12-11-01,502J-10,Estacao Autodromo - Metro Conceicao,Local,Articulação Regional,Base
+LAR-12-18-02,5317-10,Sesc (Orion) - Terminal Santo Amaro,Local,Articulação Regional,Base
+LAR-12-18-03,5632-10,Vila Sao Jose - Terminal Santo Amaro,Local,Articulação Regional,Base
+LAR-12-18-04,5632-51,Jardim Alpino - Terminal Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-12-18-05,6026-10,Jardim Icaraí - Term. Santo Amaro,Local,Articulação Regional,Base
+LAR-12-18-06,6027-10,Jd. Grauna  -  Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-12-18-07,6030-10,Unisa (Campus 1 até São José) -  Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-12-18-08,6062-51,Jd. Castro Alves  -  Terminal Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-12-18-09,6069-10,Jd. Sao Bernardo  -  Term. Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-12-18-10,6071-10,Jd. Orion  -  Term. Santo Amaro,Local,Articulação Regional,Base
+LAR-12-18-11,6071-22,Jd. Primavera - Term. Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-12-11-12,6074-10,Jd. Gaivotas - Estação Jurubatuba,Local,Articulação Regional,Base
+LAR-12-18-13,6076-10,Jd. Progresso  -  Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-12-18-14,6076-41,Jd. Satelite II  -  Terminal Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-12-18-15,6091-10,Vargem Grande - Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-12-18-16,6118-10,Jd. Icarai  -  Terminal Santo Amaro,Local,Articulação Regional,Base
+LAR-12-18-17,637V-10,Parque America  -  Terminal Santo Amaro,Local,Articulação Regional,Base
+LAR-12-11-18,675G-10,Pq Res. Cocaia  -  Metrô Jabaquara,Local,Articulação Regional,Reforço Pico
+LAR-12-11-19,675G-41,Jd. Castro Alves  -  Metrô Jabaquara,Local,Articulação Regional,Reforço Pico
+LAR-12-11-20,675M-10,Centro Sesc  -  Shopping Interlagos,Local,Articulação Regional,Base
+LAR-12-18-21,695H-10,Jd. Herplin - Terminal Santo Amaro,Local,Articulação Regional,Base
+LAR-12-11-22,675G-10,Grajau  -  Metrô Jabaquara,Local,Articulação Regional,Base
+LAR-13-20-01,5318-10,Chacara Santana  -  Praca da Se,Local,Articulação Regional,Reforço Pico
+LAR-13-18-02,6007-10,Pq. Sto. Antonio  -  Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-13-18-03,6008-10,Jd. Planalto  -  Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-13-14-04,6012-10,Pque. Independência  - T. Jd. Ângela,Local,Articulação Regional,Base
+LAR-13-18-05,6028-10,Riviera  -  Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-13-18-06,6028-31,Riviera  -  Term. Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-13-14-07,6041-10,Jd. Jangadeiro  - T. Capelinha,Local,Articulação Regional,Base
+LAR-13-18-08,6043-10,Jd. Capelinha  -  Term. Santo Amaro,Local,Articulação Regional,Base
+LAR-13-14-09,6045-10,Valo Velho  - T. Capelinha,Local,Articulação Regional,Base
+LAR-13-14-10,6049-10,Valo Velho  -  Terminal Capelinha,Local,Articulação Regional,Base
+LAR-13-12-11,6099-10,Divisa de Embu Guaçu - Term. Grajaú,Local,Articulação Regional,Base
+LAR-13-18-12,6258-10,Jd. Sao Francisco  -  Term. Santo Amaro,Local,Articulação Regional,Base
+LAR-13-18-13,637R-10,Jd.Aracati  -  Terminal Sto Amaro,Local,Articulação Regional,Base
+LAR-13-14-14,6475-10,Jd. Vaz De Lima  - T. Capelinha,Local,Articulação Regional,Base
+LAR-13-14-15,647A-10,Valo Velho  - T. Capelinha,Local,Articulação Regional,Base
+LAR-13-14-16,6823-10,Jd. Guaruja  -  Term. Capelinha,Local,Articulação Regional,Base
+LAR-13-14-17,7001-10,Vila Gilda - Jd. Ângela,Local,Articulação Regional,Base
+LAR-13-14-18,7005-51,Jd. Vera Cruz  -  Metrô Capão Redondo,Local,Articulação Regional,Reforço Pico
+LAR-13-14-19,7006-51,Jd. Horizonte Azul  -  Metrô Capão Redondo,Local,Articulação Regional,Reforço Pico
+LAR-13-18-20,7016-10,Jd. Angela  -  Term. Santo Amaro,Local,Articulação Regional,Base
+LAR-13-18-21,7022-10,Jd.Caicara  -  Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-13-18-22,7023-10,Jd. Nakamura  -  Term. Sto. Amaro,Local,Articulação Regional,Base
+LAR-13-14-23,7049-10,Parque do Lago  -  Terminal Capão,Local,Articulação Regional,Base
+LAR-13-14-24,7055-10,Jd. Guarujá  -  Term.Campo Limpo,Local,Articulação Regional,Base
+LAR-14-13-01,6010-10,Chac. Santa Maria  -  Term. Guarapiranga,Local,Articulação Regional,Base
+LAR-14-18-02,6039-10,Valo Velho  -  Santo Amaro,Local,Articulação Regional,Reforço Pico
+LAR-14-17-03,6291-10,Inocoop Campo Limpo  -  Term. Bandeira,Local,Articulação Regional,Base
+LAR-14-13-04,675V-10,Term. Capelinha  - Term. Guarapiranga,Local,Articulação Regional,Base
+LAR-14-13-05,6804-10,Jd. Inga  -  Term. Joao Dias,Local,Articulação Regional,Base
+LAR-14-13-06,6805-10,Term. Capelinha  -  Term. Joao Dias,Local,Articulação Regional,Base
+LAR-14-13-07,6805-31,Terminal Capelinha  -  Terminal Joao Dias,Local,Articulação Regional,Reforço Pico
+LAR-14-13-08,6806-10,Jd. Novo Oriente  -  Term. Joao Dias,Local,Articulação Regional,Base
+LAR-14-18-09,6816-10,Jd. Mitsutani  -  Term. Capelinha,Local,Articulação Regional,Base
+LAR-14-13-10,6836-10,Capao Redondo  -  Terminal Joao Dias,Local,Articulação Regional,Base
+LAR-14-17-11,7013-10,Pq. Arariba  -  Pinheiros,Local,Articulação Regional,Base
+LAR-14-13-12,7021-10,Jd. Maracá  -  Term. João Dias,Local,Articulação Regional,Base
+LAR-14-17-13,7040-10,Paraisopolis  -  Pinheiros,Local,Articulação Regional,Base
+LAR-14-13-14,745M-10,Campo Limpo  -  Terminal Guarapiranga,Local,Articulação Regional,Base
+LAR-14-18-15,746P-10,Paraisopolis  -  Santo Amaro,Local,Articulação Regional,Base
+LAR-14-18-16,807J-10,Term. Campo Limpo  -  Shopping Morumbi,Local,Articulação Regional,Base
+LAR-14-16-17,809L-10,Campo Limpo - Lapa,Local,Articulação Regional,Base
+LAR-14-13-18,,T. Campo Limpo - T. Jd. Ângela,Local,Articulação Regional,Base
+LAR-15-17-01,6250-10,Jd. Jaqueline  - Pinheiros,Local,Articulação Regional,Base
+LAR-15-20-02,702U-10,Butanta  (USP) - Term. Pq. D. Pedro II,Local,Articulação Regional,Base
+LAR-15-20-03,715M-10,Jd. Maria Luiza  -  Lgo. da Polvora,Local,Articulação Regional,Reforço Pico
+LAR-15-13-04,746C-10,Jd. Taboao  -  Terminal João Dias,Local,Articulação Regional,Base
+LAR-15-18-05,746H-10,Jd. Jaqueline  -  Terminal João Dias,Local,Articulação Regional,Base
+LAR-15-16-06,748R-10,Jd. Joao XXIII  - Lapa,Local,Articulação Regional,Base
+LAR-15-20-07,7545-10,Jd. Joao XXIII  -  Pca Ramos de Azevedo,Local,Articulação Regional,Base
+LAR-15-18-08,756A-10,Jardim Paulo VI - Shopping Morumbi,Local,Articulação Regional,Base
+LAR-15-16-09,7725-10,Rio Pequeno  - Terminal Lapa,Local,Articulação Regional,Base
+LAR-15-17-10,775N-10,Rio Pequeno - Metrô Vila Madalena,Local,Articulação Regional,Base
+LAR-15-17-11,775P-10,Jd. Guarau  - Pinheiros,Local,Articulação Regional,Base
+LAR-15-17-12,778J-41,Cohab Raposo Tavares  - Pinheiros,Local,Articulação Regional,Reforço Pico
+LAR-15-20-13,778R-10,Cohab Raposo Tavares  -  Term Princesa Isabel,Local,Articulação Regional,Base
+LAR-15-18-14,8020-10,Butantã  -  Shop. Morumbi,Local,Articulação Regional,Base
+LAR-15-17-15,809A-10,Jd. D' Abril  -  Terminal Pinheiros,Local,Articulação Regional,Reforço Pico
+LAR-15-17-16,809D-10,Cohab Educandario  -  Terminal Pinheiros,Local,Articulação Regional,Reforço Pico
+LAR-15-16-17,809H-10,Jd. Boa Vista  -  Lapa,Local,Articulação Regional,Base
+LAR-15-16-18,809N-10,Vila Dalva - Lapa,Local,Articulação Regional,Base
+LAR-15-16-19,809U-10,Cidade Universitária  -  Metrô Barra Funda,Local,Articulação Regional,Base
+LAR-15-17-20,8610-10,Jd. Paulo VI  - Pinheiros,Local,Articulação Regional,Base
+LAR-15-17-21,715M-10,Jd. Maria Luiza  - Pinheiros,Local,Articulação Regional,Base
+LAR-16-20-01,874T-10,Metrô Marechal Deodoro - Lapa,Local,Articulação Regional,Base
+LAR-16-17-02,,Terminal Lapa - Terminal Pinheiros,Local,Articulação Regional,Base
+LAR-17-16-01,177Y-10,Metrô Barra Funda  -   Terminal Pinheiros,Local,Articulação Regional,Base
+LAR-17-16-02,957T-10,Terminal Lapa - Henrique Chamma,Local,Articulação Regional,Base
+LAR-17-20-03,967A-10,Terminal Princesa Isabel - Terminal Pinheiros,Local,Articulação Regional,Base
+LAR-18-11-01,5614-10,Eldorado - Aeroporto,Local,Articulação Regional,Base
+LAR-18-10-02,675L-10,Term. Santo Amaro  -  Metrô Sacoma,Local,Articulação Regional,Base
+LAR-18-19-03,7710-10,Água Espraiada - Metrô Ana Rosa,Local,Articulação Regional,Base
+LAR-18-11-04,,CPTM Berrini - Metro Conceicao,Local,Articulação Regional,Base
+LAR-18-11-05,,Jabaquara - T. Santo Amaro,Local,Articulação Regional,Base
+LAR-19-21-01,274P-10,Lgo. da Concórdia - Metrô Vila Mariana,Local,Articulação Regional,Base
+LAR-19-16-02,408A-10,Machado De Assis  -  Cardoso De Almeida,Local,Articulação Regional,Base
+LAR-19-20-03,475M-10,Term. Vila Mariana - Term. Amaral Gurgel,Local,Articulação Regional,Base
+LAR-19-10-04,478P-10,Sacomã - Metrô Vila Mariana,Local,Articulação Regional,Base
+LAR-19-16-05,875P-10,Metrô Barra Funda  -  Metrô Ana Rosa,Local,Articulação Regional,Base
+LAR-19-17-06,,Parque do Povo - Metro Sao Judas,Local,Articulação Regional,Base
+LAR-20-21-01,172U-10,Mooca - Luz,Local,Articulação Regional,Base
+LAR-20-17-02,719P-10,Terminal Pinheiros - Terminal Princesa Isabel,Local,Articulação Regional,Base
+LAR-20-16-03,9191-21,Barra Funda - Bom Retiro,Local,Articulação Regional,Reforço Pico
+LAR-21-20-01,271P-10,Luz - Terminal Belem,Local,Articulação Regional,Base
+LDS-01-01-01,1015-10,Chácara Maria Trindade  -  Terminal Jd. Britania,Local,Distribuidora,Base
+LDS-01-01-02,119L-10,Vila Sulina - Rodovia Anhanguera (Passarela),Local,Distribuidora,Base
+LDS-01-01-03,8009-31,Cid. D'Abril 3 Gleba  -  Av. Nossa Senhora da Paz,Local,Distribuidora,Reforço Pico
+LDS-01-01-04,8013-10,Morro Doce  - T. Jd. Britônia,Local,Distribuidora,Base
+LDS-01-01-05,8013-22,Jardim Rosinha - Terminal Jardim Britania,Local,Distribuidora,Reforço Pico
+LDS-01-01-06,8013-41,Jd. Paineiras  -  Term Jd. Britônia,Local,Distribuidora,Reforço Pico
+LDS-01-01-07,8014-10,Morro Doce  -  Perus,Local,Distribuidora,Base
+LDS-01-01-08,8015-21,Cemitúrio de Perus - Estação de Perus,Local,Distribuidora,Reforço Pico
+LDS-01-01-09,8050-31,Parque Morro Doce - Terminal Jardim Britania,Local,Distribuidora,Reforço Pico
+LDS-01-01-10,8055-51,Perus  - T. Jd. Britônia,Local,Distribuidora,Reforço Pico
+LDS-01-01-11,8548-10,Jd. Dos Cunhas  - T. Cachoeirinha,Local,Distribuidora,Base
+LDS-01-01-12,888P-10,Perus  -  Cohab Taipas,Local,Distribuidora,Base
+LDS-01-01-13,9008-10,Pq. de Taipas  -  T.T.V.N.Cachoeirinha,Local,Distribuidora,Base
+LDS-01-01-14,9008-41,Estancia Jaragua  -  T.T.V.N.Cachoeirinha,Local,Distribuidora,Reforço Pico
+LDS-01-03-15,9032-10,Jd. Damasceno  -  T.T.V.N. Cachoeirinha,Local,Distribuidora,Base
+LDS-01-01-16,9162-10,Jd. Almanara  -  Terminal Casa Verde,Local,Distribuidora,Base
+LDS-01-04-17,971R-42,Cdhu Voith  -  Metrô Santana,Local,Distribuidora,Base
+LDS-01-01-18,9785-10,Vila Terezinha  - João Paulo I,Local,Distribuidora,Base
+LDS-01-03-19,9785-51,Jd. Carombe  -  T.T.V.N. Cachoeirinha,Local,Distribuidora,Reforço Pico
+LDS-01-01-20,978T-10,Jd. Guarani  - João Paulo I,Local,Distribuidora,Base
+LDS-02-02-01,1026-10,Vila Iara - Conexao Petronio Portela,Local,Distribuidora,Base
+LDS-02-02-02,8007-10,Vila Clarice  -  Terminal Pirituba,Local,Distribuidora,Base
+LDS-02-02-03,8008-10,Santa Monica  -  Terminal Pirituba,Local,Distribuidora,Base
+LDS-02-02-04,8043-10,Vila Nova Esperanca  -  Pirituba,Local,Distribuidora,Base
+LDS-02-02-05,8538-10,Freguesia do O - Parada RIo Verde (R. Rio Verde),Local,Distribuidora,Base
+LDS-02-02-06,9015-10,Vila Zatt  -  Terminal Pirituba,Local,Distribuidora,Base
+LDS-02-02-07,9018-10,Vila Mirante  -  Terminal Pirituba,Local,Distribuidora,Base
+LDS-02-02-08,9020-10,Vila Mirante  -  Terminal Pirituba,Local,Distribuidora,Base
+LDS-02-02-09,9034-10,Morro Grande  - Pça. Mons. Escrivá,Local,Distribuidora,Base
+LDS-03-03-01,148L-10,Cohab Antartica  - T. Cachoeirinha,Local,Distribuidora,Base
+LDS-03-03-02,1701-10,Jova Rural  - T. Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-03,1701-51,Jova Rural  - T. Tucuruvi,Local,Distribuidora,Reforço Pico
+LDS-03-03-04,1705-10,Jd. Sao Joao  -  Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-05,1709-10,Jd. Joana D'Arc  -  Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-06,1726-51,Clube Plêiades - Vila Zilda,Local,Distribuidora,Reforço Pico
+LDS-03-03-07,172U-10,Cem. Pq. dos Pinheiros  - Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-08,1757-10,Conj. Dos Bancarios  -  Metrô Santana,Local,Distribuidora,Base
+LDS-03-03-09,1764-10,Jd. Corisco  - Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-10,1764-41,Cemit. Pq. da Cantareira  -  Metrô Tucuruvi,Local,Distribuidora,Reforço Pico
+LDS-03-03-11,1765-10,Jd. Cabuçu  -  Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-12,1766-10,Jd. Cabuçu  - T. Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-13,1771-10,Vila Zilda  - T. Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-14,1772-10,Jd. Filhos Da Terra  -  Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-15,1773-10,Cem. Pq. dos Pinheiros  -  Mandaqui,Local,Distribuidora,Base
+LDS-03-03-16,1778-10,Jaçanô  -  Metrô Santana,Local,Distribuidora,Base
+LDS-03-03-17,1780-10,Jd. Hebron  -  Term. Parada Inglesa,Local,Distribuidora,Base
+LDS-03-03-18,1782-10,Vila Nova Galvao  -  Metrô Santana,Local,Distribuidora,Base
+LDS-03-03-19,1783-41,Jd. Labitary  -  Metrô Parada Inglesa,Local,Distribuidora,Reforço Pico
+LDS-03-03-20,179X-10,Jd. Fontalis  - Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-21,2020-10,Horto Florestal  -  Metrô Parada Inglesa,Local,Distribuidora,Base
+LDS-03-03-22,2023-10,Cachoeira  -  Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-23,2024-10,Circular  -  Cachoeira,Local,Distribuidora,Base
+LDS-03-03-24,2028-10,Vila Ayrosa  -  Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-25,2029-10,Jd. Fontalis  -  Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-03-03-26,9002-10,Jd. Pery Alto  -  T.T.V.N.Cachoeirinha,Local,Distribuidora,Base
+LDS-03-03-27,9070-10,Jardim Antartica - Terminal  V. N. Cachoeirinha,Local,Distribuidora,Base
+LDS-03-03-28,9166-10,Jd. Santa Cruz  -  T.T.V.N. Cachoeirinha,Local,Distribuidora,Base
+LDS-03-01-29,9191-10,Jd. Elisa Maria  - T. Cachoeirinha,Local,Distribuidora,Base
+LDS-03-03-30,148P-10,Jardim Pery  - T. Cachoeirinha,Local,Distribuidora,Base
+LDS-04-04-01,1206-10,Pq. Vila Maria  -  Concordia,Local,Distribuidora,Base
+LDS-04-04-02,121G-10,Pq. Novo Mundo  -  Metrô Tucuruvi,Local,Distribuidora,Base
+LDS-04-04-03,1720-21,Vila Sabrina - Metrô Tucuruvi,Local,Distribuidora,Reforço Pico
+LDS-04-04-04,1721-10,Vila Ede  -  Metrô Carandiru,Local,Distribuidora,Base
+LDS-04-04-05,1730-10,Center Norte  -  Santana,Local,Distribuidora,Base
+LDS-04-04-06,1732-10,Vila Sabrina  - Santana,Local,Distribuidora,Base
+LDS-04-04-07,174M-10,Jardim Brasil - Metrô Santana,Local,Distribuidora,Base
+LDS-04-04-08,2011-10,Edu Chaves  -  Metrô Santana,Local,Distribuidora,Base
+LDS-04-04-09,2012-10,VIla Ede - Metro Tiete,Local,Distribuidora,Base
+LDS-04-04-10,2032-10,Pq. Edu Chaves  -  Metrô Carandiru,Local,Distribuidora,Base
+LDS-04-04-11,2127-10,Jd. Brasil  -  Terminal Parque Dom Pedro,Local,Distribuidora,Base
+LDS-04-04-12,2171-10,Vila Sabrina  - Metrô Belem,Local,Distribuidora,Base
+LDS-04-04-13,271C-10,Parque Vila Maria - Terminal Santana,Local,Distribuidora,Base
+LDS-04-04-14,271M-10,Pq. Novo Mundo  -  Metrô Santana,Local,Distribuidora,Base
+LDS-04-04-15,272N-10,Pq. Novo Mundo  - Luz,Local,Distribuidora,Base
+LDS-04-04-16,971A-10,Jd. Primavera  -  Metrô Santana,Local,Distribuidora,Base
+LDS-04-04-17,971T-10,Vila Santa Maria  -  Metrô Santana,Local,Distribuidora,Base
+LDS-05-05-01,2004-10,Jd. Nsa. Sra. do Caminho  -  Est. CPTM Guaianazes,Local,Distribuidora,Base
+LDS-05-05-02,2005-10,Jd. Romano  -  Sao Miguel (Circ.),Local,Distribuidora,Base
+LDS-05-05-03,2006-10,Cidade Kemel I  -  Est. CPTM Itaim Paulista,Local,Distribuidora,Base
+LDS-05-05-04,2007-10,Cidade Kemel II  -  CPTM Itaim Paulista,Local,Distribuidora,Base
+LDS-05-05-05,2008-10,Jd. N. S. Caminho - Estação Itaim,Local,Distribuidora,Base
+LDS-05-05-06,2008-41,Jd. Miriam  -  Itaim Paulista,Local,Distribuidora,Reforço Pico
+LDS-05-05-07,2009-10,Jd. Robru  -  Guaianazes,Local,Distribuidora,Base
+LDS-05-05-08,2016-10,Jd. das Oliveiras  -  Sao Miguel,Local,Distribuidora,Base
+LDS-05-05-09,2017-10,Jd. Robru  -  Sao Miguel (Circ.),Local,Distribuidora,Base
+LDS-05-05-10,2018-10,Jd. Campos  -  Sao Miguel(Circular),Local,Distribuidora,Base
+LDS-05-05-11,2021-10,Jd. Bandeirantes  -  Estacao Guaianazes,Local,Distribuidora,Base
+LDS-05-05-12,2079-10,Jd. Nelia  -  Estação Itaim Paulista (Circular),Local,Distribuidora,Base
+LDS-05-05-13,2088-10,Conj. Encosta Norte  - Itaim,Local,Distribuidora,Base
+LDS-05-05-14,2201-10,Divisa De Ferraz  -  Guaianazes,Local,Distribuidora,Base
+LDS-05-05-15,234A-10,Jd. Helena - São Miguel,Local,Distribuidora,Base
+LDS-05-05-16,2522-10,Jd. Santo Antonio  -  Metrô Itaquera (Circular),Local,Distribuidora,Base
+LDS-05-07-17,2703-10,Jd. Etelvina  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-05-07-18,2704-10,Jd. Robru  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-05-07-19,2708-10,Jd. Lajeado  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-05-07-20,2731-10,Vila Progresso  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-05-07-21,2734-10,Jd. Campos  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-05-07-22,273V-10,Parada XV Novembro  - ET Itaquera,Local,Distribuidora,Base
+LDS-05-05-23,3001-10,Itaim Paulista  -  Term. São Miguel,Local,Distribuidora,Base
+LDS-05-05-24,3003-10,Jd. São Martinho (CPTM Vila Mara) - Itaim,Local,Distribuidora,Base
+LDS-05-05-25,3004-10,Jd. São Martinho (CPTM Vila Mara) - Itaim,Local,Distribuidora,Base
+LDS-05-05-26,3006-10,Jd. Fanganielo  -  Estação Cptm Guaianazes (Circ.),Local,Distribuidora,Base
+LDS-05-07-27,3574-10,Jd. Etelvina  -  E.T. Itaquera,Local,Distribuidora,Base
+LDS-05-05-28,3902-10,Estação Cptm Jd. Romano  -  Guaianazes,Local,Distribuidora,Base
+LDS-05-05-29,2582-10,Vila Nova Curuca  - T. São Miguel,Local,Distribuidora,Base
+LDS-05-05-30,2583-10,Vila Curuca  - T. São Miguel,Local,Distribuidora,Base
+LDS-05-05-31,307C-10,Conj.Encosta Norte  - Itaim,Local,Distribuidora,Base
+LDS-06-06-01,2019-10,Pq. Paineiras  -  Shopping Penha,Local,Distribuidora,Base
+LDS-06-06-02,2041-10,Vila Nova Silvia  -  Term. Penha,Local,Distribuidora,Base
+LDS-06-06-03,2060-10,Term. A.E. Carvalho  -  Metrô Artur Alvim,Local,Distribuidora,Base
+LDS-06-06-04,211V-10,Vila Paranagua  -  Penha (Circular),Local,Distribuidora,Base
+LDS-06-06-05,2501-10,Ermelino Matarazzo - Vila Sampaio,Local,Distribuidora,Base
+LDS-06-06-06,2706-10,Cemiterio da Saudade - Term. A. E. Carvalho,Local,Distribuidora,Base
+LDS-06-06-07,2709-10,Vila Uniao  -  Metrô Patriarca,Local,Distribuidora,Base
+LDS-06-06-08,2709-31,Vila Uniao  -  Metrô Patriarca,Local,Distribuidora,Reforço Pico
+LDS-06-06-09,2710-10,Metrô Patriarca  -  Burgo Paulista,Local,Distribuidora,Base
+LDS-06-06-10,2710-31,Metrô Patriarca  -  Vila Sao Francisco,Local,Distribuidora,Reforço Pico
+LDS-06-06-11,2711-10,Ponte Rasa  -  Metrô Patriarca,Local,Distribuidora,Base
+LDS-06-06-12,2712-10,Jd. Sao Nicolau  -  Shop. Metrô Itaquera (Circular),Local,Distribuidora,Base
+LDS-06-06-13,2713-10,Metrô Penha  -  Chacara Bela Vista,Local,Distribuidora,Base
+LDS-06-06-14,2714-10,Metrô Vila Matilde  -  Vila Rui Barbosa,Local,Distribuidora,Base
+LDS-06-06-15,2715-10,Vila Silvia  -  Metrô Patriarca,Local,Distribuidora,Base
+LDS-06-08-16,2716-10,Chac. Cruz. Do Sul  -  Metrô Penha,Local,Distribuidora,Base
+LDS-06-06-17,2717-10,Metrô Guilhermina  -  Cangaíba,Local,Distribuidora,Base
+LDS-06-06-18,271A-51,Cangaiba  -  Terminal Penha,Local,Distribuidora,Reforço Pico
+LDS-06-06-19,2720-10,Jd. Belem  -  Metrô Guilhermina,Local,Distribuidora,Base
+LDS-06-06-20,2720-31,Jd. Belem  -  Metrô Guilhermina,Local,Distribuidora,Reforço Pico
+LDS-06-06-21,2722-10,Jd. Veronia  -  Metrô Guilhermina,Local,Distribuidora,Base
+LDS-06-06-22,2722-31,Metrô Guilhermina  -  Jd. Veronia,Local,Distribuidora,Reforço Pico
+LDS-06-06-23,2724-10,Metrô Artur Alvim - Conjunto Araucária,Local,Distribuidora,Base
+LDS-06-06-24,2725-10,Jardim São Carlos - Metrô Artur Alvim,Local,Distribuidora,Base
+LDS-06-06-25,2726-10,Limoeiro - Term. A. E. Carvalho,Local,Distribuidora,Base
+LDS-06-06-26,2727-10,Metrô Artur Alvim - Conj. A. E. Carvalho,Local,Distribuidora,Base
+LDS-06-06-27,2730-10,Vila Jacui  -  Metrô Artur Alvim,Local,Distribuidora,Base
+LDS-06-06-28,2736-10,Ermelino Matarazzo - Term. A. E. Carvalho,Local,Distribuidora,Base
+LDS-06-06-29,2767-10,Cid. Pedro J. Nunes - Ermelino Matarazzo,Local,Distribuidora,Base
+LDS-06-06-30,3206-10,Metrô Penha  -  Conj. Chaparral,Local,Distribuidora,Base
+LDS-06-06-31,3901-10,Jd. Danfer  -  Metrô Penha,Local,Distribuidora,Base
+LDS-06-07-32,3903-10,Jardim Vila Nova - Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-01,3013-10,Term. Cid.Tiradentes  -  Metalurgicos,Local,Distribuidora,Base
+LDS-07-07-02,3019-10,Term. Cid.Tiradentes  -  Vila Paulista I,Local,Distribuidora,Base
+LDS-07-07-03,3020-10,Vila Cosmopolita - Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-04,3025-10,Jd. Wilma Flor  -  Est. Guaianazes,Local,Distribuidora,Base
+LDS-07-07-05,3026-10,Vila Iolanda II  -  Est.Guaianazes,Local,Distribuidora,Base
+LDS-07-07-06,3031-10,Jd. Alto Paulistano  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-07,3064-41,Term. Cid. Tiradentes  -  Santa Etelvina II B6,Local,Distribuidora,Reforço Pico
+LDS-07-07-08,3069-10,Jd.Recanto Verde Sol  -  Term. Sao Mateus,Local,Distribuidora,Base
+LDS-07-07-09,3098-10,Jardim São Francisco - São Mateus,Local,Distribuidora,Base
+LDS-07-07-10,3099-10,Hosp. Sao Mateus  -  Jd. da Conquista,Local,Distribuidora,Base
+LDS-07-07-11,312N-10,Term. Cidade Tiradentes - Guaianazes,Local,Distribuidora,Base
+LDS-07-07-12,342N-10,Cohab Pres. Juscelino Kubitscheck  - Guaianazes,Local,Distribuidora,Base
+LDS-07-07-13,3712-10,Jd. Sao Joao  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-14,3722-10,Cohab Jose Bonifacio  - M. Itaquera,Local,Distribuidora,Base
+LDS-07-07-15,3732-10,Estação José Bonifácio  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-16,3738-10,Cohab Juscelino  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-17,3739-10,Recanto Verde Sol  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-18,3739-31,São Teodoro  -  Centro De Itaquera,Local,Distribuidora,Reforço Pico
+LDS-07-07-19,373L-10,Jd. Limoeiro  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-20,3741-10,Estação Dom Bosco  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-21,3742-10,Jardim  Laranjeira  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-22,3749-10,Guainazes - Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-23,3751-10,Cohab Prestes Maia  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-24,3754-10,Inacio Monteiro  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-25,3756-10,Barro Branco  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-26,3766-10,Cohab II  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-27,3768-10,Vila Yolanda  -  CPTM José Bonifácio,Local,Distribuidora,Base
+LDS-07-09-28,3773-10,Res. Santa Barbara - Term. Sapopemba,Local,Distribuidora,Base
+LDS-07-07-29,3789-10,Cid. Tiradentes  - T. Cidade Tiradentes,Local,Distribuidora,Base
+LDS-07-07-30,3793-10,Cidade Tiradentes - Term. Cidade Tiradentes,Local,Distribuidora,Base
+LDS-07-07-31,3795-10,Jd. Sao Carlos  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-32,3796-10,Gleba Do Pessego  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-08-33,4001-10,Itaquera - Term. Vila Carrão,Local,Distribuidora,Base
+LDS-07-07-34,4003-10,Prestes Maia  -  Et Itaquera,Local,Distribuidora,Base
+LDS-07-07-35,4004-10,Term. Cid. Tiradentes  -  Barro Branco,Local,Distribuidora,Base
+LDS-07-07-36,4005-10,Term Cid Tiradentes  -  Barro Branco,Local,Distribuidora,Base
+LDS-07-07-37,4006-10,Jd. Nova Vitória (Circular),Local,Distribuidora,Base
+LDS-07-07-38,4011-10,Jd. Limoeiro  -  Term. São Mateus,Local,Distribuidora,Base
+LDS-07-07-39,4012-10,Jd. da Conquista  -  Term. Sao Mateus,Local,Distribuidora,Base
+LDS-07-07-40,4013-10,Jd. Santo Andrú  -  Term. São Mateus,Local,Distribuidora,Base
+LDS-07-07-41,4015-10,Term. São Mateus  -  Jd. Rodolfo Pirani,Local,Distribuidora,Base
+LDS-07-07-42,4016-10,Term São Mateus  -  Jd Rodolfo Pirani,Local,Distribuidora,Base
+LDS-07-07-43,4017-10,Vila Yolanda  -  Metalúrgicos,Local,Distribuidora,Base
+LDS-07-07-44,4024-10,Cohab Fazenda Do Carmo  -  E. T. Itaquera,Local,Distribuidora,Base
+LDS-07-07-45,4027-10,Hosp. Sao Mateus  -  Jd. Santo Andre,Local,Distribuidora,Base
+LDS-07-07-46,4028-10,Hosp. Sao Mateus  -  Divisa de Maua,Local,Distribuidora,Base
+LDS-07-07-47,4030-10,Fazenda da Juta - Term. São Mateus,Local,Distribuidora,Base
+LDS-07-07-48,4051-10,Jd. São Paulo - CPTM Guaianazes,Local,Distribuidora,Base
+LDS-07-07-49,4051-10,Jardim Solange - CPTM Guaianazes,Local,Distribuidora,Base
+LDS-07-07-50,4052-10,Cptm Guaianazes  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-51,4053-10,Guaianazes  -  CPTM José Bonifácio,Local,Distribuidora,Base
+LDS-07-07-52,4056-10,Pq. Boa Esperança  -  Term. São Mateus,Local,Distribuidora,Base
+LDS-07-07-53,407H-10,Jd. Sao Francisco  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-54,407T-10,Jardim Redil  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-55,4085-10,Cohab Fazenda Do Carmo  -  Metrô Itaquera,Local,Distribuidora,Base
+LDS-07-07-56,4086-10,Cidade Tiradentes  -  Term. Cidade Tiradentes,Local,Distribuidora,Base
+LDS-07-07-57,4092-10,Term. Cid. Tiradentes  -  Setor IIb,Local,Distribuidora,Base
+LDS-08-08-01,3032-10,Term. Vila Carrão  -,Local,Distribuidora,Base
+LDS-08-08-02,3718-10,Metrô Artur Alvim  -  Nova America,Local,Distribuidora,Base
+LDS-08-08-03,3721-10,Shop.C.L. Aricanduva  -  Metrô Artur Alvim,Local,Distribuidora,Base
+LDS-08-08-04,3721-41,Shop.C.L. Aricanduva  -  Metrô Itaquera,Local,Distribuidora,Reforço Pico
+LDS-08-08-05,3725-10,Metrô Vila Matilde  -  Vila Dalila,Local,Distribuidora,Base
+LDS-08-08-06,3725-41,Metrô Vila Matilde  -  Vila Aricanduva,Local,Distribuidora,Reforço Pico
+LDS-08-08-07,3728-10,Metrô Artur Alvim  -  Pq. Savoy City,Local,Distribuidora,Base
+LDS-08-08-08,3728-41,Metrô Artur Alvim  -  Pq. Nova Savoy,Local,Distribuidora,Reforço Pico
+LDS-08-08-09,3734-10,Cidade Lider  -  Metrô Artur Alvim,Local,Distribuidora,Base
+LDS-08-08-10,3735-10,Metrô Artur Alvim  -  Jd. Sao Joao,Local,Distribuidora,Base
+LDS-08-08-11,3735-21,Metrô Artur Alvim - Jd. São João,Local,Distribuidora,Reforço Pico
+LDS-08-08-12,3735-41,Jd. São José  -  Metrô Artur Alvim,Local,Distribuidora,Reforço Pico
+LDS-08-08-13,3737-10,Shop. Aricanduva  -  Metrô Guilher (Esper.),Local,Distribuidora,Base
+LDS-08-08-14,3737-21,Jardim Sta. Maria - Metrô Guilher/Esper.,Local,Distribuidora,Reforço Pico
+LDS-08-08-15,3737-31,Metrô Guilhermina   -,Local,Distribuidora,Reforço Pico
+LDS-08-08-16,3737-41,Metrô Guilher - Esper. (Jd. Fernandes),Local,Distribuidora,Reforço Pico
+LDS-08-08-17,3791-10,Shopping Aricanduva  -  Metrô Artur Alvim,Local,Distribuidora,Base
+LDS-08-08-18,4010-10,Jd N Sra do Carmo  - T. Carrão,Local,Distribuidora,Base
+LDS-08-08-19,407Y-10,Pq. Savoy City  -  Metrô V. Prudente,Local,Distribuidora,Base
+LDS-08-08-20,4724-10,Metrô Patriarca  -  V. Nhocune,Local,Distribuidora,Base
+LDS-08-08-21,407I-10,Conj. Manoel da Nóbrega  - Sh. Aricanduva,Local,Distribuidora,Base
+LDS-09-09-01,3021-10,Pq. Bancario  -  Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-02,3024-10,Vila Industrial  -  Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-03,3112-10,Vila Industrial  - Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-04,373M-10,Jd. Guairaca - Term. Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-05,4031-10,Pq. Santa Madalena  -  Metrô Tamanduateí,Local,Distribuidora,Base
+LDS-09-09-06,4221-10,Jd. Planalto  - Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-07,4222-10,Pq. Santa Madalena  -  Mooca,Local,Distribuidora,Base
+LDS-09-09-08,4284-10,Vila California  -  Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-09,4286-10,Vila Industrial  -  Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-10,4288-10,Pq. Santa Madalena  - Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-11,476G-41,Vila Industrial  - Vila Prudente,Local,Distribuidora,Reforço Pico
+LDS-09-09-12,5026-10,Conj. Teotonio Vilela  -  Jd. Sao Roberto,Local,Distribuidora,Base
+LDS-09-09-13,5142-10,Term. Sapopemba - Term. Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-14,573A-10,Vila Alpina - Term. Vila Prudente,Local,Distribuidora,Base
+LDS-09-09-15,573T-31,Lar Nacional  -  Jd. Nove de Julho,Local,Distribuidora,Reforço Pico
+LDS-09-09-16,574C-10,Divisa de São Caetano  -  São Mateus,Local,Distribuidora,Base
+LDS-09-09-17,574W-10,Jardim Walkiria - Term. Sapopemba,Local,Distribuidora,Base
+LDS-09-09-18,314J-10,Santa Madalena  - Vila Prudente,Local,Distribuidora,Base
+LDS-10-10-01,375V-10,Metrô Tamanduateí  -  Metrô Alto do Ipiranga,Local,Distribuidora,Base
+LDS-10-10-02,4717-10,Jd. Maria Estela  -  Metrô Saúde,Local,Distribuidora,Base
+LDS-10-10-03,4718-10,Jd. Celeste - Metrô Santa Cruz,Local,Distribuidora,Base
+LDS-10-10-04,4725-10,Vila Brasilina  -  Shop. C.Ibirapuera,Local,Distribuidora,Base
+LDS-10-10-05,4742-10,Jd. Climax  -  Metrô São Judas,Local,Distribuidora,Base
+LDS-10-10-06,5020-10,Hosp. Heliopolis  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-07,5021-10,Agua Funda  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-08,5028-10,Conj. Hab. Heliopolis  -  Museu do Ipiranga,Local,Distribuidora,Base
+LDS-10-10-09,5029-10,Jd. Patente  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-10,5030-10,Jd. Maria Estela  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-11,5031-10,Vila Arapua  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-12,5032-10,Vila Arapua  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-13,5033-10,Vila Brasilina  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-14,5034-10,Vila Liviero  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-15,5034-31,Term. Sacoma  -  Vila Liviero,Local,Distribuidora,Reforço Pico
+LDS-10-10-16,5035-10,Vila Arapua  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-17,5036-10,Jd. Celeste  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-10-10-18,5038-10,Pq. Bristol  -  Term. Sacoma,Local,Distribuidora,Base
+LDS-11-11-01,5010-10,Jabaquara - Jardim Lourdes,Local,Distribuidora,Base
+LDS-11-11-02,5012-10,Vila Guacuri  -  Jabaquara,Local,Distribuidora,Base
+LDS-11-11-03,5015-10,Jd. Sao Jorge  -  Metrô Jabaquara,Local,Distribuidora,Base
+LDS-11-11-04,5018-10,Shopping Interlagos  -  Jabaquara,Local,Distribuidora,Base
+LDS-11-11-05,5018-31,Shopping Interlagos  -  Jabaquara,Local,Distribuidora,Reforço Pico
+LDS-11-11-06,5022-10,Vila Sta. Margarida  -  Jabaquara,Local,Distribuidora,Base
+LDS-11-11-07,5091-10,Jd. Ubirajara  -  Metrô São Judas (Circular),Local,Distribuidora,Base
+LDS-11-11-08,509J-21,Vila MIssionaria - Moema,Local,Distribuidora,Reforço Pico
+LDS-11-11-09,5106-10,Jardim Selma  - Metrô Jabaquara,Local,Distribuidora,Base
+LDS-11-11-10,5123-10,Jd. Miriam  -  Metro Jabaquara,Local,Distribuidora,Base
+LDS-11-11-11,5127-10,Vila Guacuri  -  Estação Jurubatuba,Local,Distribuidora,Base
+LDS-11-11-12,5128-10,Jd. Apurá  -  Metro Jabaquara,Local,Distribuidora,Base
+LDS-11-11-13,5164-41,Vila Guarani  -,Local,Distribuidora,Reforço Pico
+LDS-11-11-14,516N-10,Jd. Miriam  -  Praça Dom Gastão,Local,Distribuidora,Base
+LDS-11-11-15,5702-10,Refúgio Santa Terezinha  -  Metrô Jabaquara,Local,Distribuidora,Base
+LDS-11-11-16,5752-10,Vila Missionaria  -  Metrô Conceição,Local,Distribuidora,Base
+LDS-11-11-17,5757-10,Cidade Julia  -  Metrô Conceicão,Local,Distribuidora,Base
+LDS-11-11-18,5757-51,Pedreira  -  Metrô Conceição,Local,Distribuidora,Reforço Pico
+LDS-11-11-19,5759-10,Pq. Primavera  -  Metrô Conceição,Local,Distribuidora,Base
+LDS-11-11-20,5759-31,Pq. Primavera  -  Metrô Conceicao,Local,Distribuidora,Reforço Pico
+LDS-11-11-21,5791-10,Eldorado  -  Metrô Jabaquara,Local,Distribuidora,Base
+LDS-11-11-22,607A-21,Jd. Apurá - Estação Jurubatuba,Local,Distribuidora,Reforço Pico
+LDS-11-11-23,607G-10,Metrô Conceição  -  Shopping Morumbi,Local,Distribuidora,Base
+LDS-11-11-24,627J-10,Jd. Miriam  -  Metrô São Judas,Local,Distribuidora,Base
+LDS-11-11-25,675P-10,CPTM Jurubatuba - Terminal Santo Amaro,Local,Distribuidora,Base
+LDS-11-11-26,5757-51,Pedreira  - Jd. Miriam,Local,Distribuidora,Base
+LDS-12-12-01,5362-21,Grajaú (Res. Faria Lima) - Terminal Grajau,Local,Distribuidora,Reforço Pico
+LDS-12-12-02,6000-21,Cidade Dutra - AMA,Local,Distribuidora,Reforço Pico
+LDS-12-12-03,6000-23,Term. Parelheiros - AMA,Local,Distribuidora,Reforço Pico
+LDS-12-12-04,6000-24,T. Parelheiros/AMA - Term. Santo Amaro,Local,Distribuidora,Base
+LDS-12-12-05,6002-10,Cidade Dutra  -  Hospital De Pedreira (Circular ),Local,Distribuidora,Base
+LDS-12-12-06,6003-10,Terminal Grajaú  -  Terminal Varginha,Local,Distribuidora,Base
+LDS-12-12-07,6016-10,Jd. Noronha  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-08,6016-41,Jd. Porto Velho  -  Terminal Grajaú,Local,Distribuidora,Reforço Pico
+LDS-12-12-09,6031-10,Jd. Sao Bernardo  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-10,6034-10,Pq. Res. Cocaia  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-11,6050-10,Pq. Cocaia  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-12,6051-10,Jd. Itajaí  -  Terminal Varginha,Local,Distribuidora,Base
+LDS-12-12-13,6051-31,Jd. Itajaí  -  Terminal Varginha,Local,Distribuidora,Reforço Pico
+LDS-12-12-14,6052-10,Jd. Sete de Setembro  -  Terminal Varginha,Local,Distribuidora,Base
+LDS-12-12-15,6052-31,Jd. Almeida Prado  -  Terminal Varginha,Local,Distribuidora,Reforço Pico
+LDS-12-12-16,6053-10,Jd. Ellus  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-17,6056-10,Pq. Santa Cecilia  -  Terminal Grajau,Local,Distribuidora,Base
+LDS-12-12-18,6057-10,Vila Natal  -  Term. Grajau,Local,Distribuidora,Base
+LDS-12-12-19,6058-10,Jd. Noronha  -  Terminal Varginha,Local,Distribuidora,Base
+LDS-12-12-20,6061-10,Jd. Marilda  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-21,6062-10,Jd. Castro Alves  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-22,6063-10,Jd. Varginha  -  Terminal Varginha,Local,Distribuidora,Base
+LDS-12-12-23,6063-41,Jd. Novo Marilda  -  Terminal Varginha,Local,Distribuidora,Reforço Pico
+LDS-12-12-24,6063-42,Chacara Santo Amaro  -  Terminal Varginha,Local,Distribuidora,Reforço Pico
+LDS-12-12-25,6072-10,Jd. Sao Nicolau  -  Terminal Varginha,Local,Distribuidora,Base
+LDS-12-12-26,6073-10,Jd. Santa Terezinha - Term. Varginha,Local,Distribuidora,Base
+LDS-12-12-27,6073-21,Jd. Silveira - Term. Varginha,Local,Distribuidora,Reforço Pico
+LDS-12-12-28,6075-10,Jd. Rec. Campo Belo  -  Term. Varginha,Local,Distribuidora,Base
+LDS-12-12-29,6078-10,Cantinho Do Ceu  - T. Grajaú,Local,Distribuidora,Base
+LDS-12-12-30,6083-10,Jd. Eliana  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-31,6084-10,Jd. Chacara Do Sol  -  Term. Varginha,Local,Distribuidora,Base
+LDS-12-12-32,6092-10,Jd. Das Pedras  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-33,6093-10,Vargem Grande  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-34,6110-10,Conj. Hab. Palmares - CPTM Autodromo,Local,Distribuidora,Base
+LDS-12-12-35,6115-10,Cantinho Do Ceu  -  Terminal Grajau,Local,Distribuidora,Base
+LDS-12-12-36,6115-41,Pq. Res. Dos Lagos  -  Terminal Grajau,Local,Distribuidora,Reforço Pico
+LDS-12-12-37,6116-10,Jd. Prainha  -  Terminal Grajaú,Local,Distribuidora,Base
+LDS-12-12-38,6120-10,Jd. Lucelia  -  Terminal Grajau,Local,Distribuidora,Base
+LDS-12-12-39,6726-10,Jd. Gaivotas  -  Terminal Grajau,Local,Distribuidora,Base
+LDS-12-12-40,677V-10,Jd. Alpino  -  Estação Grajaú,Local,Distribuidora,Base
+LDS-12-12-41,6L01-10,Marsilac - Term. Varginha,Local,Distribuidora,Base
+LDS-12-12-42,6L02-10,Jd. Eucaliptos  -  Terminal Parelheiros,Local,Distribuidora,Base
+LDS-12-12-43,6L03-10,Cipó do Meio - Term. Parelheiros,Local,Distribuidora,Base
+LDS-12-12-44,6L04-10,Jd. Oriental/Fontes - Term. Parelheiros,Local,Distribuidora,Base
+LDS-12-12-45,6L04-41,Jd. das Fontes - Term. Parelheiros,Local,Distribuidora,Reforço Pico
+LDS-12-12-46,6L04-42,Jd. Oriental  -  Terminal Parelheiros,Local,Distribuidora,Reforço Pico
+LDS-12-12-47,6L05-10,Barragem  -  Term. Parelheiros,Local,Distribuidora,Base
+LDS-12-12-48,6L07-10,Jd. Santa Fe  -  Terminal Varginha,Local,Distribuidora,Base
+LDS-12-12-49,6L08-10,Jd. São Nicolau  -  Terminal Parelheiros,Local,Distribuidora,Base
+LDS-12-12-50,6L10-10,Pq. Florestal  -  Terminal Varginha,Local,Distribuidora,Base
+LDS-12-12-51,6L10-41,Messianica  -  Terminal Varginha,Local,Distribuidora,Reforço Pico
+LDS-12-12-52,6L11-10,Ilha Do Borore  -  Term. Grajaú,Local,Distribuidora,Base
+LDS-12-12-53,6069-10,Jd. Sao Bernardo  - T. Grajaú,Local,Distribuidora,Base
+LDS-12-12-54,6072-23,Terminal Vaginha - Balneario Sao Jose,Local,Distribuidora,Base
+LDS-12-12-55,6075-21,Jardim Aruan - Terminal Varginha,Local,Distribuidora,Base
+LDS-13-13-01,5119-23,Terminal João Dias - Instituto Lucy Montoro,Local,Distribuidora,Reforço Pico
+LDS-13-13-02,6006-10,Jd. Herculano  - T. Guarapiranga,Local,Distribuidora,Base
+LDS-13-13-03,6013-21,ETEC - Jardim Angela,Local,Distribuidora,Reforço Pico
+LDS-13-13-04,6015-10,Vila Calu  -  Jardim Angela,Local,Distribuidora,Base
+LDS-13-13-05,6017-10,Jd. Nakamura  -  Jardim Angela,Local,Distribuidora,Base
+LDS-13-13-06,6019-10,Term. Guarapiranga  -  Jd. Alfredo,Local,Distribuidora,Base
+LDS-13-13-07,6022-10,Pque. Cerejeira  -  Jardim Angela,Local,Distribuidora,Base
+LDS-13-13-08,6025-10,Jardim Guaruja - Terminal Guarapiranga,Local,Distribuidora,Base
+LDS-13-13-09,6035-21,Vila Gilda - Term. Guarapiranga,Local,Distribuidora,Reforço Pico
+LDS-13-13-10,6041-21,Term. J§ao Dias - Jd. Monte Azul,Local,Distribuidora,Reforço Pico
+LDS-13-13-11,6045-21,Valo Velho - Capão Redondo,Local,Distribuidora,Reforço Pico
+LDS-13-13-12,6059-10,Jd. Universal  -  Terminal Guarapiranga,Local,Distribuidora,Base
+LDS-13-13-13,6258-31,Jd. Sta. Margarida - Jd. Ibirapuera,Local,Distribuidora,Reforço Pico
+LDS-13-13-14,675A-10,Pq. Sto. Antonio  -  Terminal João Dias,Local,Distribuidora,Base
+LDS-13-13-15,6801-51,Jd. Ibirapuera  -  Term João Dias,Local,Distribuidora,Reforço Pico
+LDS-13-13-16,6803-10,Jd. Capelinha  -  Term. Joao Dias,Local,Distribuidora,Base
+LDS-13-13-17,6812-10,Jd. Capela  - T. Jd. Ângela,Local,Distribuidora,Base
+LDS-13-13-18,7004-10,Term. Rod. Jd. Jacira  -  Est.Sto.Amaro (Av. Guido Caloi),Local,Distribuidora,Base
+LDS-13-13-19,7005-10,Jd. Vera Cruz - Jd. Ângela,Local,Distribuidora,Base
+LDS-13-13-20,7006-10,Jd. Horizonte Azul - Jd. Ângela,Local,Distribuidora,Base
+LDS-13-13-21,7009-10,Jd. São Lourenço - Jd. Ângela,Local,Distribuidora,Base
+LDS-13-13-22,7011-10,Jd. dos Reis - Jd. Ângela,Local,Distribuidora,Base
+LDS-13-13-23,7011-21,Chácara Santa Maria - Jd. Ângela,Local,Distribuidora,Reforço Pico
+LDS-13-13-24,7011-31,Jd. dos Reis - Jd. Ângela,Local,Distribuidora,Reforço Pico
+LDS-13-13-25,7012-10,Parque Do Lago  -  Term. Guarapiranga,Local,Distribuidora,Base
+LDS-13-13-26,5318-10,Chacara Santana  - T. Guarapiranga,Local,Distribuidora,Base
+LDS-13-13-27,609F-10,Chacara Santana  - T. J. Dias,Local,Distribuidora,Base
+LDS-14-14-01,6012-31,Parque da Independencia -  Jardim Angela,Local,Distribuidora,Reforço Pico
+LDS-14-14-02,6042-21,Term. Capelinha - CEU Capão Redondo,Local,Distribuidora,Reforço Pico
+LDS-14-14-03,6044-10,Jd. Dom José  - T. Capelinha,Local,Distribuidora,Base
+LDS-14-14-04,6412-10,Paraisopolis  - V. Olímpia (Av. Sto. Amaro),Local,Distribuidora,Base
+LDS-14-14-05,6813-10,Jd. Lidia  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-06,6816-31,Jd. Mitsutani  -  Terminal Capelinha,Local,Distribuidora,Reforço Pico
+LDS-14-14-07,6817-10,Jd. Sao Bento  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-08,6818-10,Jd Vale das Virtudes  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-09,6820-10,Jd. das Rosas  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-10,6820-31,Jd. das Rosas  -  Term. Capelinha,Local,Distribuidora,Reforço Pico
+LDS-14-14-11,6821-10,Jd. Jangadeiro  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-12,6822-10,Jd. Macedonia  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-13,6824-10,Pq. Fernanda  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-14,6826-10,Jd. Dom José  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-15,6835-31,Valo Velho  -  Term. Capelinha,Local,Distribuidora,Reforço Pico
+LDS-14-14-16,6837-10,Shop. Portal  -  Term. Capelinha,Local,Distribuidora,Base
+LDS-14-14-17,6840-10,Ter. Rod. J. Jacira  -  Terminal Capelinha,Local,Distribuidora,Base
+LDS-14-14-18,7051-10,Jd. Rosana  -  Terminal Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-19,7052-10,Jd. Helga  -  Terminal Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-20,7053-10,Jd. Macedonia  -  Terminal Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-21,7053-21,Jd. Maria Sampaio - Term. Campo Limpo,Local,Distribuidora,Reforço Pico
+LDS-14-14-22,7053-22,Jd. Maria Sampaio - Term. Campo Limpo,Local,Distribuidora,Reforço Pico
+LDS-14-14-23,7054-10,Jd. Macedonia  -  Terminal Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-24,7057-10,Jd. Mitsutani - Term. Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-25,7058-10,Jd. Mitsutani  -  Term. Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-26,7059-10,Pq. do Engenho  -  Terminal Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-27,7060-10,Valo Velho  -  Term.Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-28,7062-10,Inocoop Campo Limpo  -  Term. Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-29,7062-31,Campo Limpo  -  Term. Campo Limpo,Local,Distribuidora,Reforço Pico
+LDS-14-14-30,7062-41,Metrô Campo Limpo  -  Horto Do Ypê,Local,Distribuidora,Reforço Pico
+LDS-14-14-31,7063-10,Jd. Macedonia  -  Term.Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-32,746K-10,Paraisopolis  -  Campo Belo,Local,Distribuidora,Base
+LDS-14-14-33,746V-10,Jd. Reboucas  -  Metro Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-34,775F-10,Jd. das Palmas  -  Parque do Povo,Local,Distribuidora,Base
+LDS-14-14-35,8026-10,Jd. Inga  -  Butantã,Local,Distribuidora,Base
+LDS-14-14-36,8078-10,Jd. Das Palmas  -  Metrô Campo Limpo,Local,Distribuidora,Base
+LDS-14-14-37,807P-10,Paraisópolis  -  Santo Amaro,Local,Distribuidora,Base
+LDS-15-15-01,6418-10,Real Parque  -  Pça Dom Gastão,Local,Distribuidora,Reforço Pico
+LDS-15-15-02,6418-31,Real Parque  -  Av. Portugal,Local,Distribuidora,Reforço Pico
+LDS-15-15-03,7002-10,Jd. Rosa Maria  -  Hosp. Das Clinicas,Local,Distribuidora,Reforço Pico
+LDS-15-15-04,702C-10,Jd. Bonfiglioli  - Butanta,Local,Distribuidora,Base
+LDS-15-15-05,714C-10,Cohab Educandario  - Sh. Raposo,Local,Distribuidora,Base
+LDS-15-15-06,719R-10,Rio Pequeno  - Pinheiros,Local,Distribuidora,Base
+LDS-15-15-07,7282-10,Pq. Continental  - Leopoldina,Local,Distribuidora,Base
+LDS-15-15-08,746R-10,Real Parque  -  Santo Amaro,Local,Distribuidora,Base
+LDS-15-15-09,748A-10,Jd. D Abril  - Jd. Maria Luiza,Local,Distribuidora,Base
+LDS-15-15-10,748A-41,Jd. Peri Peri  - Bonfiglioli,Local,Distribuidora,Reforço Pico
+LDS-15-15-11,771P-10,Jd. João XXIII  - Km 17,Local,Distribuidora,Base
+LDS-15-15-12,775A-10,Jd. Adalgiza  -  Pinheiros,Local,Distribuidora,Base
+LDS-15-15-13,778J-10,Jd. Arpoador  - Bonfiglioli,Local,Distribuidora,Base
+LDS-15-15-14,7903-10,Jd. Joao XxIIi - Km 17,Local,Distribuidora,Base
+LDS-15-15-15,8012-10,Metrô Butantã  -  Cidade Universitária,Local,Distribuidora,Base
+LDS-15-15-16,8018-10,Vila Sônia  -  Butantã,Local,Distribuidora,Base
+LDS-15-15-17,8019-10,Parque Continental  - Vila Yara,Local,Distribuidora,Base
+LDS-15-15-18,8021-10,Jd. Maria Luiza  -  Butantã,Local,Distribuidora,Base
+LDS-15-15-19,8022-10,Metrô Butantã  -  Cidade Universitária,Local,Distribuidora,Base
+LDS-15-15-20,8023-10,CDHU Munck  - Km 17,Local,Distribuidora,Base
+LDS-15-15-21,8025-10,Jd. Rosa Maria  -  Butantã,Local,Distribuidora,Reforço Pico
+LDS-15-15-22,8027-10,Vila Dalva  -  Butantã,Local,Distribuidora,Base
+LDS-15-15-23,8038-10,Pq. Continental  -  Lapa,Local,Distribuidora,Base
+LDS-15-15-24,8073-10,Jardim Guaraú  -  Butantã,Local,Distribuidora,Reforço Pico
+LDS-15-15-25,809J-10,Jd. Colombo  -  Terminal Pinheiros,Local,Distribuidora,Base
+LDS-15-15-26,809R-10,Rio Pequeno  -  Terminal Pinheiros,Local,Distribuidora,Base
+LDS-15-15-27,809V-10,Vila Gomes  -  Butanta,Local,Distribuidora,Base
+LDS-15-15-28,8319-10,Pq. Continental  - Lapa,Local,Distribuidora,Base
+LDS-15-15-29,6418-10,Real Parque  - V. Olímpia (Av. Sto. Amaro),Local,Distribuidora,Base
+LDS-15-15-30,7002-10,Jd. Rosa Maria  - Pinheiros,Local,Distribuidora,Base
+LDS-15-15-31,7458-10,Jd. Boa Vista  - Km 17,Local,Distribuidora,Base
+LDS-15-15-32,8025-10,Jd. Rosa Maria  - Sh. Raposo,Local,Distribuidora,Base
+LDS-15-15-33,8073-10,Jardim Guara·  - Sh. Raposo,Local,Distribuidora,Base
+LDS-15-15-34,809D-10,Cohab Educandario  - Sh. Raposo,Local,Distribuidora,Base
+LDS-16-16-01,6232-10,Pinheiros/Vila Ida - Metrô Barra Funda,Local,Distribuidora,Base
+LDS-16-16-02,7267-10,Apiacas  - Metrô Sumarú,Local,Distribuidora,Base
+LDS-16-16-03,7281-10,Lapa  -  Metro Vila Madalena,Local,Distribuidora,Base
+LDS-16-16-04,7282-10,Leopoldina - Praça Ramos de Azevedo,Local,Distribuidora,Base
+LDS-16-16-05,8062-10,Pq. Sao Domingos  -  Lapa,Local,Distribuidora,Base
+LDS-16-16-06,817C-10,Lapa - Hosp. das Clinicas,Local,Distribuidora,Base
+LDS-16-16-07,8615-10,Pq. Da Lapa  - T. Lapa,Local,Distribuidora,Base
+LDS-16-16-08,9050-10,Terminal Lapa - Terminal Pinheiros,Local,Distribuidora,Base
+LDS-16-16-09,9051-10,Lapa  -  Pinheiros,Local,Distribuidora,Base
+LDS-17-17-01,701A-10,Circular Vila Madalena,Local,Distribuidora,Base
+LDS-18-18-01,5164-10,V. Sta. Catarina  -  Parque do Ibirapuera,Local,Distribuidora,Base
+LDS-18-18-02,609J-10,Aeroporto  -  Metrô São Judas (Via Miruna),Local,Distribuidora,Base
+LDS-18-18-03,6422-10,V. Cruzeiro - Chacara Santo Antonio,Local,Distribuidora,Base
+LDS-18-18-04,7245-10,Term. Santo Amaro - Shopping Morumbi,Local,Distribuidora,Base
+LDS-19-19-01,4115-10,Shop. Plaza Sul - Praça da Republica,Local,Distribuidora,Base
+LDS-19-19-02,476L-10,Lar Escola Sao Fco.  -,Local,Distribuidora,Base
+LDS-19-19-03,5106-21,Metro Sao Judas - Shopping Ibirapuera,Local,Distribuidora,Reforço Pico
+LDS-19-19-04,707A-10,Jose Maria Whitaker - Metro Praca da Arvore,Local,Distribuidora,Base
+LDS-20-20-01,2127-10,Terminal Parque Dom Pedro - Metrô Liberdade,Local,Distribuidora,Base
+LDS-20-20-02,407M-10,Vila Monumento - Vila Mariana,Local,Distribuidora,Base
+LDS-20-20-03,4111-10,Vila Monumento  -  Pca. da Republica,Local,Distribuidora,Base
+LDS-20-20-04,508L-10,Term.Princesa Isabel  -  Aclimacao (Circ.),Local,Distribuidora,Base
+LDS-20-20-05,805L-10,Term.Princesa Isabel  -  Aclimacao (Circ.),Local,Distribuidora,Base
+LDS-20-20-06,908T-10,Term. Pq. D.Pedro II  -  Butanta,Local,Distribuidora,Base
+LDS-21-21-01,172N-22,Catumbi - Metrô Belúm,Local,Distribuidora,Reforço Pico
+LDS-21-21-02,2101-10,Pça. Silvio Romero - Pça. da Sú,Local,Distribuidora,Base
+LDS-21-21-03,372F-10,Univ. São Judas Tadeu  -  Metrô Bresser,Local,Distribuidora,Base
+LDS-21-21-04,4726-10,Mooca  -  Metrô Tatuapú,Local,Distribuidora,Base
+LDS-21-21-05,4726-31,Mooca  -  Metrô Tatuapú,Local,Distribuidora,Reforço Pico
