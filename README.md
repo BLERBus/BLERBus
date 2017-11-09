@@ -9,11 +9,11 @@ use blerbus;
 ```mysql
 CREATE TABLE Users(
   id              INT(11) not null auto_increment,
-  username        VARCHAR(20) not null,
-  email           VARCHAR(30),
-  senha           VARCHAR(20) not null,
-  linhaUtilizada  VARCHAR(30),
-  bairro          VARCHAR(30),
+  username        VARCHAR(50) not null,
+  email           VARCHAR(50),
+  senha           VARCHAR(50) not null,
+  linhaUtilizada  VARCHAR(50),
+  bairro          VARCHAR(50),
   PRIMARY KEY (ID)
   );
 ```
@@ -21,18 +21,18 @@ CREATE TABLE Users(
 ### Tabela Status de Onibus:
 ```mysql
 CREATE TABLE StatusOnibus(
-  linha     VARCHAR(30) not null,
-  ponto     VARCHAR(30),
-  horario   VARVHAR(10),
-  lotação   VARCHAR(20)
+  linha     VARCHAR(50) not null,
+  ponto     VARCHAR(50),
+  horario   VARVHAR(50),
+  lotação   VARCHAR(50)
   );
 ```
 
 ### Tabela Linhas de Onibus:
 ```mysql
 CREATE TABLE Linha(
-  numero  VARHCAR(30),
-  linha   VARCHAR(30)
+  numero  VARHCAR(50),
+  linha   VARCHAR(50)
 );
 ```
 
