@@ -1,12 +1,12 @@
 # Estrutura mysql
 
 ### Database:
-```
+```mysql
 use blerbus;
 ```
 
 ### Tabela Users:
-```
+```mysql
 CREATE TABLE Users(
   id              INT(11) not null auto_increment,
   username        VARCHAR(20) not null,
@@ -19,7 +19,7 @@ CREATE TABLE Users(
 ```
 
 ### Tabela Status de Onibus:
-```
+```mysql
 CREATE TABLE StatusOnibus(
   linha     VARCHAR(30) not null,
   ponto     VARCHAR(30),
@@ -29,7 +29,7 @@ CREATE TABLE StatusOnibus(
 ```
 
 ### Tabela Linhas de Onibus:
-```
+```mysql
 CREATE TABLE Linha(
   numero  VARHCAR(30),
   linha   VARCHAR(30)
@@ -37,7 +37,7 @@ CREATE TABLE Linha(
 ```
 
 ### Tabela Forum:
-```
+```mysql
 CREATE TABLE Forum(
   id          INT(11) not null auto_increment,
   pergunta    VARCHAR(255) not null,
