@@ -47,7 +47,7 @@ CREATE TABLE linhasOnibus (
   Nivel_de_rede VARCHAR(50),
   Tipo_de_linha VARCHAR(50),
   Modelo_operacional VARCHAR(50)
-);
+)DEFAULT CHARSET=latin1;
 obs: Mudar path do arquivo.
 load data local infile '/home/rapha/Desktop/techweb/BLERBus/sptrans-linhas.csv' into table linhasOnibus fields terminated by ',' enclosed by '"' lines terminated by '\n' (codigo, Linha_Atual_Ref, Denominacao_provisoria, Nivel_de_rede, Tipo_de_linha, Modelo_operacional);
 
