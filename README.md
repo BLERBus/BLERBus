@@ -2,7 +2,8 @@
 
 ### Database:
 ```mysql
-use blerbus;
+CREATE DATABASE blerbus; 
+USE blerbus;
 ```
 
 ### Tabela Users:
