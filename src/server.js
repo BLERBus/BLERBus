@@ -24,7 +24,7 @@ app.use(
     connection(mysql,{
         host     : 'localhost',
         user     : 'root',
-        password : '1234',
+        password : 'root',
         database : 'blerbus',
         debug    : false //set true if you wanna see debug logger
     },'request')
@@ -58,7 +58,7 @@ curut.get(function(req,res,next){
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query('SELECT * FROM user',function(err,rows){
+        var query = conn.query('SELECT * FROM User',function(err,rows){
 
             if(err){
                 console.log(err);
@@ -90,10 +90,10 @@ curut.post(function(req,res,next){
 
     //pega os dados
     var data = {
-        name:req.body.name,
+        username:req.body.name,
         email:req.body.email,
-        password:req.body.password,
-        linha:req.body.linha,
+        senha:req.body.password,
+        linhaUtilizada:req.body.linha,
         bairro:req.body.bairro
      };
 
@@ -102,7 +102,7 @@ curut.post(function(req,res,next){
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query("INSERT INTO user set ? ",data, function(err, rows){
+        var query = conn.query("INSERT INTO User set ? ",data, function(err, rows){
 
            if(err){
                 console.log(err);
@@ -118,18 +118,18 @@ curut.post(function(req,res,next){
 });
 
 //segunda rota!
-var curut2 = router.route('/user/:user_id');
+var curut2 = router.route('/user/:id');
 
 // U do CRUD -> abre form de edição | GET
 curut2.get(function(req,res,next){
 
-    var user_id = req.params.user_id;
+    var id = req.params.id;
 
     req.getConnection(function(err,conn){
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query("SELECT linha AND rota FROM user WHERE user_id = ? ",[user_id],function(err,rows){
+        var query = conn.query("SELECT * FROM User WHERE id = ? ",[id],function(err,rows){
 
             if(err){
                 console.log(err);
@@ -149,12 +149,12 @@ curut2.get(function(req,res,next){
 
 //U do CRUD -> agora é a mesma coisa do create | PUT
 curut2.put(function(req,res,next){
-    var user_id = req.params.user_id;
+    var id = req.params.id;
 
     //validação
-    req.assert('name','Name is required').notEmpty();
-    req.assert('email','A valid email is required').isEmail();
-    req.assert('password','Enter a password 6 - 20').len(6,20);
+    // req.assert('name','Name is required').notEmpty();
+    // req.assert('email','A valid email is required').isEmail();
+    // req.assert('password','Enter a password 6 - 20').len(6,20);
 
     var errors = req.validationErrors();
     if(errors){
@@ -164,8 +164,8 @@ curut2.put(function(req,res,next){
 
     //dados
     var data = {
-        password:req.body.password,
-        linha:req.body.liha,
+        senha:req.body.senha,
+        linhaUtilizada:req.body.linha,
         bairro:req.body.bairro
      };
 
@@ -174,7 +174,7 @@ curut2.put(function(req,res,next){
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query("UPDATE user set ? WHERE user_id = ? ",[data,user_id], function(err, rows){
+        var query = conn.query("UPDATE User set ? WHERE id = ? ",[data,id], function(err, rows){
 
            if(err){
                 console.log(err);

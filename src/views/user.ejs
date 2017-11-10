@@ -23,14 +23,14 @@
              
             <tr>
                 <td><%=(i+1)%></td>
-                <td><%=data[i].name%></td>
-                <td><%=data[i].password%></td>
+                <td><%=data[i].username%></td>
+                <td><%=data[i].senha%></td>
                 <td><%=data[i].email%></td>
-                <td><%=data[i].linha%></td>
+                <td><%=data[i].linhaUtilizada%></td>
                 <td><%=data[i].bairro%></td>
                 
                 <td>
-                    <a class="a-inside edit" href="/api/user/<%=data[i].user_id%>">Edit</a>
+                    <a class="a-inside edit" href="/api/user/<%=data[i].id%>">Edit</a>
                    
                     <!-- <a class="a-inside delete" href="javascript:void(0)" onClick="deleteUser(<%=data[i].user_id%>)">Delete</a> -->
                    

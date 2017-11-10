@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%=title%></title>
+        <script type="text/javascript" src="/../js/jquery-1.10.2.min.js"></script>
+        <!-- <link rel="stylesheet" href="/../css/style.css"> -->
+    </head>
+<body>
+<form method="post" action="" id="the-form">
+    <table cellpadding="11">
+    <tr>
+        <td class="label">Senha</td><td>: <input type="password" name="senha" value="<%=data[0].senha%>"></td>
+     </tr>
+    <tr>
+        <td class="label">Linha</td><td>: <input type="text" name="linha" value="<%=data[0].linhaUtilizada%>"></td>
+     </tr>
+      <tr>
+        <td class="label">Bairro</td><td>: <input type="text" name="bairro" value="<%=data[0].bairro%>"></td>
+     </tr>
+     <tr>
+        <td class="label"></td>
+        <td>
+            &nbsp; <input type="button" value="Save" onClick="saveUser()">
+        </td>
+     </tr>
+    </table>
+</form>
+ <script>
+    
+        function saveUser(){
+           
+           $.ajax({
+            
+            url:"/api/user/"+<%=data[0].id%>,
+            type:"put",
+            data:$("#the-form").serialize(),
+            success:function(res){
+                
+                window.location.href = '/api/user';
+                return false;
+            },
+            error:function(xhr, status, error){
+                
+                console.log(xhr.responseText);
+                var err = '';
+                $.each(JSON.parse(xhr.responseText) , function(i, item) {
+                   
+                     err +='<li>'+item.msg+'</li>';
+                });
+                $(".err-area").html(err);    
+                return false;
+            }
+            
+           });
+        }
+    
+    </script>
+</body>
+</html>
