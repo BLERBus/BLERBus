@@ -2,7 +2,7 @@
 
 ### Database:
 ```mysql
-CREATE DATABASE blerbus; 
+CREATE DATABASE IF NOT EXISTS blerbus; 
 USE blerbus;
 ```
 
