@@ -51,7 +51,7 @@ CREATE TABLE linhasOnibus (
 obs: Mudar path do arquivo.
 load data local infile '/home/rapha/Desktop/techweb/BLERBus/sptrans-linhas.csv' into table linhasOnibus fields terminated by ',' enclosed by '"' lines terminated by '\n' (codigo, Linha_Atual_Ref, Denominacao_provisoria, Nivel_de_rede, Tipo_de_linha, Modelo_operacional);
 
-delete from linhas onibus where codigo="codigo";
+delete from linhasOnibus where codigo="codigo";
 ```
 
 
