@@ -1,0 +1,69 @@
+<!-- extended javascript -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript" src="/../js/jquery-1.10.2.min.js"></script>
+    </head>
+    <body>
+        <div class="page-data">
+            <form method="post" action="" id="the-form">
+                <table cellpadding="11">
+                    <tr>
+                        <td class="label">Linha</td><td>: <input type="text" name="linha"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Ponto</td><td>: <input type="text" name="ponto"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Horário</td><td>: <input type="text" name="horario"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Lotação</td><td>: <input type="text" name="lotacao"></td>
+                    </tr>
+                    <tr>
+                        <td class="label"></td>
+                        <td>
+                            &nbsp; <input type="button" value="Save" onClick="saveStatus()">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        
+        <div class="page-data">
+                <ul class="err-area"></ul>
+           </div>
+           
+           <script>
+           
+               function saveStatus(){
+                  
+                  $.ajax({
+                   
+                   url:"/api/status",
+                   type:"post",
+                   data:$("#the-form").serialize(),
+                   success:function(res){
+                       
+                       window.location.reload();
+                       return false;
+                   },
+                   error:function(xhr, status, error){
+                       
+                       console.log(xhr.responseText);
+                       var err = '';
+                       $.each(JSON.parse(xhr.responseText) , function(i, item) {
+                          
+                            err +='<li>'+item.msg+'</li>';
+                       });
+                       $(".err-area").html(err);    
+                       return false;
+                   }
+                   
+                  });
+               }
+            </script>   
+    </body>
+
+</html>
