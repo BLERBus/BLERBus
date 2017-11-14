@@ -11,6 +11,7 @@ app.set('views','./views');
 app.set('view engine','ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(bodyParser.urlencoded({ extended: true })); //support x-www-form-urlencoded
 app.use(bodyParser.json());
 app.use(expressValidator());
@@ -24,7 +25,7 @@ app.use(
     connection(mysql,{
         host     : 'localhost',
         user     : 'root',
-        password : 'root',
+        password : '123456',
         database : 'blerbus',
         debug    : false //set true if you wanna see debug logger
     },'request')
