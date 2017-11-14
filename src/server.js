@@ -48,6 +48,7 @@ router.use(function(req, res, next) {
 
 //criamos a rota
 var curut = router.route('/user');
+var stcurut = router.route('/status');
 
 
 //R do CRUD  | GET
@@ -214,6 +215,70 @@ curut2.delete(function(req,res,next){
      });
 });
 */
+
+
+//Terceira Rota Status
+
+
+//Form de edição
+stcurut.get(function(req,res,next){  
+/*        var id = req.params.id;
+    
+        req.getConnection(function(err,conn){
+    
+            if (err) return next("Cannot Connect");
+    
+            var query = conn.query("SELECT * FROM StatusOnibus WHERE id = ? ",[id],function(err,rows){
+    
+                if(err){
+                    console.log(err);
+                    return next("Mysql error, check your query");
+                }
+    
+                //if user not found
+                if(rows.length < 1)
+                    return res.send("User Not found");
+  */  
+                res.render('status');
+            });
+
+
+//Create do Status| POST
+stcurut.post(function(req,res,next){
+
+    var errors = req.validationErrors();
+    if(errors){
+        res.status(422).json(errors);
+        return;
+    }
+
+    //pega os dados
+    var data = {
+        linha:req.body.linha,
+        ponto:req.body.ponto,
+        horario:req.body.horario,
+        lotação:req.body.lotacao
+        };
+
+    //insere no mysql
+    req.getConnection(function (err, conn){
+
+        if (err) return next("Cannot Connect");
+
+        var query = conn.query("INSERT INTO StatusOnibus set ? ",data, function(err, rows){
+
+            if(err){
+                console.log(err);
+                return next("Mysql error, check your query");
+            }
+
+            res.sendStatus(200);
+
+        });
+
+        });
+
+});
 
 //now we need to apply our router here
 app.use('/api', router);
