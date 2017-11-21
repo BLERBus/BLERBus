@@ -25,7 +25,7 @@ app.use(
     connection(mysql,{
         host     : 'localhost',
         user     : 'root',
-        password : '123456',
+        password : 'root',
         database : 'blerbus',
         debug    : false //set true if you wanna see debug logger
     },'request')
@@ -50,6 +50,7 @@ router.use(function(req, res, next) {
 //criamos a rota
 var curut = router.route('/user');
 var stcurut = router.route('/status');
+var rescurut = router.route('/checkstatus');
 
 
 //R do CRUD  | GET
@@ -223,25 +224,8 @@ curut2.delete(function(req,res,next){
 
 //Form de edição
 stcurut.get(function(req,res,next){  
-/*        var id = req.params.id;
-    
-        req.getConnection(function(err,conn){
-    
-            if (err) return next("Cannot Connect");
-    
-            var query = conn.query("SELECT * FROM StatusOnibus WHERE id = ? ",[id],function(err,rows){
-    
-                if(err){
-                    console.log(err);
-                    return next("Mysql error, check your query");
-                }
-    
-                //if user not found
-                if(rows.length < 1)
-                    return res.send("User Not found");
-  */  
-                res.render('status');
-            });
+    res.render('status');
+});
 
 
 //Create do Status| POST
@@ -280,6 +264,68 @@ stcurut.post(function(req,res,next){
         });
 
 });
+
+
+//Quarta Rota
+
+//R linha especifica
+rescurut.get(function(req,res,next){
+    
+        req.getConnection(function(err,conn){
+    
+            if (err) return next("Cannot Connect");
+
+            var data1 = {
+                linha:req.body.linha
+            }
+            console.log(data1.linha)
+
+            if (data1.linha == null){
+                
+                res.render('checkstatus',{title:"RESTful Crud Example",data:null});
+            }
+
+            else{
+                var query = conn.query('SELECT linha, lotação FROM StautusOnibus WHERE linha = ?',[data1.linha],function(err,rows){
+        
+                    if(err){
+                        console.log(err);
+                        return next("Mysql error, check your query");
+                    }
+        
+                    res.render('checkstatus',{title:"RESTful Crud Example",data:rows});
+                
+        
+             });
+            }
+    
+        });
+    
+    });
+/*
+//R linhas lotadas
+curut.get(function(req,res,next){
+    
+        req.getConnection(function(err,conn){
+    
+            if (err) return next("Cannot Connect");
+    
+            var query = conn.query('SELECT linha, lotação FROM StautusOnibus',function(err,rows){
+    
+                if(err){
+                    console.log(err);
+                    return next("Mysql error, check your query");
+                }
+    
+                res.render('user',{title:"RESTful Crud Example",data:rows});
+    
+             });
+    
+        });
+    
+    });
+*/
+
 
 //now we need to apply our router here
 app.use('/api', router);
