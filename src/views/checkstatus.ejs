@@ -18,7 +18,7 @@
         </form>
     </div>
 
-    <div class="data-table" >
+    <div class="data-table" id ="divtable" >
         <table id = "tabela" border="1" cellpadding="7" cellspacing="7">
             <tr>
                 <th width="50px">Linha</th>
@@ -54,7 +54,7 @@
                 <tr>
                     <%console.log("alo")%>
                     <%data = JSON.parse(JSON.stringify(data))%>
-                    <td><%=data[0].linha%></td>
+                    <td id = "primeiro"><%=data[0].linha%></td>
                     <td><%=resultado%></td>
                 </tr>
 
@@ -72,7 +72,9 @@
                 // saveLinha($('.label').val);
                 console.log($('#linha').val());
                 saveLinha();
-                // updateDiv();
+                // insertText ()
+                // updateTable();
+                // RefreshTable();
             })
         });
 
@@ -85,8 +87,23 @@
             type:"POST",
             data: json,
             success:function(res){
-                console.log(JSON.parse(JSON.stringify(res)));
-                $('#tabela').html(res);
+                console.log(res);
+                dataTable = res;
+                // console.log(dataTable);
+                // Find a <table> element with id="myTable":
+                var table = document.getElementById("tabela");
+
+                // Create an empty <tr> element and add it to the 1st position of the table:
+                var row = table.insertRow(0);
+
+                // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+
+                // Add some text to the new cells:
+                cell1.innerHTML = dataTable.rows[0].linha;
+                cell2.innerHTML = "NEW CELL2";
+                // $('#tabela').html(res);
                 return false;
             },
             error:function(xhr, status, error){
@@ -103,7 +120,34 @@
             
             });
         }
+        function insertText () {
+            
+        }
 
+        // $("#linhacheck").on("click", RefreshTable);
+
+        // OR CAN THIS WAY
+        //
+        // $("#refresh-btn").on("click", function() {
+        //    $( "#mytable" ).load( "your-current-page.html #mytable" );
+        // });
+
+
+        // });
+
+        // function updateTable(){
+        //     $('.editabletable').click(function () {
+        //     $.ajax({
+        //     url: $(this).data("url"),
+        //     type: 'GET',
+        //     cache: false,
+        //     success: function (result) {
+        //         $('#tabela').html(result);
+        //         }
+        //     });
+        //     return false;
+        // });
+        //         }
         // function updateDiv()
         // { 
         //     $( "#tabela" ).load(window.location.href + "#tabela" );
