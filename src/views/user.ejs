@@ -1,156 +1,190 @@
 <!-- extended javascript -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
 
-        <link rel="stylesheet" type="text/css" href="/css/materialize.min.css"  />
-  
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <script type="text/javascript" src="/../js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="/../js/materialize.min.js"></script>
-        <script type="text/javascript" src="/../js/index.js"></script>
+<head>
+    <title></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
 
-        
-        
+    <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
 
-    </head>
-    <div class="data-table">
-        <table border="1" cellpadding="7" cellspacing="7">
-            <tr>
-                <th width="50px">No</th>
-                <th>Nome</th>
-                <th>Senha</th>
-                <th>Email</th>
-                <th>Linha</th>
-                <th>Bairro</th>
-                <th>Action</th>
-            </tr>
-                           
-            <% if(data.length){ 
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="/../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/../js/materialize.min.js"></script>
+    <script type="text/javascript" src="/../js/index.js"></script>
+
+
+
+
+</head>
+<div class="data-table">
+    <table border="1" cellpadding="7" cellspacing="7">
+        <tr>
+            <th width="50px">No</th>
+            <th>Nome</th>
+            <th>Senha</th>
+            <th>Email</th>
+            <th>Linha</th>
+            <th>Bairro</th>
+            <th>Action</th>
+        </tr>
+
+        <% if(data.length){ 
                             
              for(var i = 0;i < data.length;i++) { %>
-             
+
             <tr>
-                <td><%=(i+1)%></td>
-                <td><%=data[i].username%></td>
-                <td><%=data[i].senha%></td>
-                <td><%=data[i].email%></td>
-                <td><%=data[i].linhaUtilizada%></td>
-                <td><%=data[i].bairro%></td>
-                
+                <td>
+                    <%=(i+1)%>
+                </td>
+                <td>
+                    <%=data[i].username%>
+                </td>
+                <td>
+                    <%=data[i].senha%>
+                </td>
+                <td>
+                    <%=data[i].email%>
+                </td>
+                <td>
+                    <%=data[i].linhaUtilizada%>
+                </td>
+                <td>
+                    <%=data[i].bairro%>
+                </td>
+
                 <td>
                     <a class="a-inside edit" href="/api/user/<%=data[i].id%>">Edit</a>
-                   
+
                     <!-- <a class="a-inside delete" href="javascript:void(0)" onClick="deleteUser(<%=data[i].user_id%>)">Delete</a> -->
-                   
+
                 </td>
             </tr>
-        <% }
+            <% }
         
          }else{ %>
-             <tr>
-                <td colspan="5">No Data</td>
-             </tr>
-        <% } %>
-                                          
-        </table>
-    </div>
-    <div class="page-data">
-        
-        <form method="post" action="" id="the-form">
-            <table cellpadding="11">
+                <tr>
+                    <td colspan="5">No Data</td>
+                </tr>
+                <% } %>
+
+    </table>
+</div>
+<div class="page-data">
+
+    <form method="post" action="" id="the-form">
+        <table cellpadding="11">
             <tr>
-                <td class="label">Name</td><td>: <input type="text" name="name"></td>
-             </tr>
-             <tr>
-                <td class="label">Password</td><td>: <input type="password" name="password"></td>
-             </tr>
+                <td class="label">Name</td>
+                <td>:
+                    <input type="text" name="name">
+                </td>
+            </tr>
             <tr>
-                <td class="label">Email</td><td>: <input type="text" name="email"></td>
-             </tr>
-             <tr>
-                <td class="label">Linha</td><td>: <input type="text" name="linha"></td>
-             </tr>
-             <tr>
-                <td class="label">Bairro</td><td>: <input type="text" name="bairro"></td>
-             </tr>
-             <tr>
+                <td class="label">Password</td>
+                <td>:
+                    <input type="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Email</td>
+                <td>:
+                    <input type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Linha</td>
+                <td>:
+                    <input type="text" name="linha">
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Bairro</td>
+                <td>:
+                    <input type="text" name="bairro">
+                </td>
+            </tr>
+            <tr>
                 <td class="label"></td>
                 <td>
-                    &nbsp; <input type="button" value="Save" onClick="saveUser()">
+                    &nbsp;
+                    <input type="button" value="Save" onClick="saveUser()">
                 </td>
-             </tr>
-            </table>
-        </form>
-    </div>
-    <div class="page-data">
-         <ul class="err-area"></ul>
-    </div>
-    
-    <script>
-    
-        function saveUser(){
-           
-           $.ajax({
-            
-            url:"/api/user",
-            type:"post",
-            data:$("#the-form").serialize(),
-            success:function(res){
-                
+            </tr>
+        </table>
+    </form>
+</div>
+<div class="page-data">
+    <ul class="err-area"></ul>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('select').material_select();
+
+    });
+
+    function saveUser() {
+
+        $.ajax({
+
+            url: "/api/user",
+            type: "post",
+            data: $("#the-form").serialize(),
+            success: function (res) {
+
                 window.location.reload();
                 return false;
             },
-            error:function(xhr, status, error){
-                
+            error: function (xhr, status, error) {
+
                 console.log(xhr.responseText);
                 var err = '';
-                $.each(JSON.parse(xhr.responseText) , function(i, item) {
-                   
-                     err +='<li>'+item.msg+'</li>';
+                $.each(JSON.parse(xhr.responseText), function (i, item) {
+
+                    err += '<li>' + item.msg + '</li>';
                 });
-                $(".err-area").html(err);    
+                $(".err-area").html(err);
                 return false;
             }
-            
-           });
-        }
-        
-        function deleteUser(user_id){
-        
-            $.ajax({
-                url:"/api/user/"+user_id,
-                type: 'DELETE',
-                success: function(res) {
-                    
-                    window.location.reload();
-                    return false;
-                },
-                error:function(xhr, status, error){
-                
-                    console.log(xhr.responseText);
-                    alert("Error deleting");
-                    return false;
-                }
-            });
-        }
-    
-    </script>
-    <body>
-        <div class="input-field col s12">
-            <select>
-              <option value="" disabled selected>Choose your option</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-            </select>
-            <label>Materialize Select</label>
-          </div>
+
+        });
+    }
+
+    function deleteUser(user_id) {
+
+        $.ajax({
+            url: "/api/user/" + user_id,
+            type: 'DELETE',
+            success: function (res) {
+
+                window.location.reload();
+                return false;
+            },
+            error: function (xhr, status, error) {
+
+                console.log(xhr.responseText);
+                alert("Error deleting");
+                return false;
+            }
+        });
+    }
+</script>
+
+<body>
+    <div class="input-field col s12">
+        <select>
+            <option value="" disabled selected>Choose your option</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+        </select>
+        <label>Materialize Select</label>
+    </div>
 
 
-    </body>
+</body>
+
 </html>

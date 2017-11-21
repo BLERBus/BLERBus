@@ -1,39 +1,40 @@
-
-var express  = require('express'),
-    path     = require('path'),
+var express = require('express'),
+    path = require('path'),
     bodyParser = require('body-parser'),
     app = express(),
     expressValidator = require('express-validator');
 
 
 /*Set EJS template Engine*/
-app.set('views','./views');
-app.set('view engine','ejs');
+app.set('views', './views');
+app.set('view engine', 'ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(bodyParser.urlencoded({ extended: true })); //support x-www-form-urlencoded
+app.use(bodyParser.urlencoded({
+    extended: true
+})); //support x-www-form-urlencoded
 app.use(bodyParser.json());
 app.use(expressValidator());
 
 /*MySql connection*/
-var connection  = require('express-myconnection'),
+var connection = require('express-myconnection'),
     mysql = require('mysql');
 
 // tem que mudar para os seus dados
 app.use(
-    connection(mysql,{
-        host     : 'localhost',
-        user     : 'root',
-        password : '123456',
-        database : 'blerbus',
-        debug    : false //set true if you wanna see debug logger
-    },'request')
+    connection(mysql, {
+        host: 'localhost',
+        user: 'root',
+        password: '123456',
+        database: 'blerbus',
+        debug: false //set true if you wanna see debug logger
+    }, 'request')
 
 );
 
 // esse é o mapeamento mais basico
-app.get('/',function(req,res){
+app.get('/', function (req, res) {
     res.send('Oi! Use a url api/user para conseguir ver nossa aplicação : ) ');
 });
 
@@ -42,7 +43,7 @@ app.get('/',function(req,res){
 var router = express.Router();
 
 // Ajuda a monitorar o que está rolando
-router.use(function(req, res, next) {
+router.use(function (req, res, next) {
     console.log(req.method, req.url);
     next();
 });
@@ -53,23 +54,46 @@ var stcurut = router.route('/status');
 
 
 //R do CRUD  | GET
-curut.get(function(req,res,next){
+curut.get(function (req, res, next) {
 
 
-    req.getConnection(function(err,conn){
+    req.getConnection(function (err, conn) {
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query('SELECT * FROM User',function(err,rows){
+        var query = conn.query('SELECT * FROM User', function (err, rows) {
 
-            if(err){
+            if (err) {
                 console.log(err);
                 return next("Mysql error, check your query");
             }
 
-            res.render('user',{title:"RESTful Crud Example",data:rows});
+            req.data = rows;
+            console.log(req.data);
+            // res.render('user', {title: "RESTful Crud Example", data: rows});
 
-         });
+        });
+
+        console.log("passei");
+
+        query = conn.query('SELECT Denominacao_Provisoria FROM linhasOnibus LIMIT 10', function (err, rows) {
+
+            if (err) {
+                console.log(err);
+                return next("Mysql error, check your query");
+            }
+
+            req.linhas = rows;
+            // res.render('user', {title: "Linhas de Onibus", lines: rows});7
+
+        });
+        console.log(req.data)
+        
+        res.render('user', {
+            
+            data: req.data,
+            linhas: req.linhas
+        })
 
     });
 
@@ -77,72 +101,75 @@ curut.get(function(req,res,next){
 
 
 //C do CRUD | POST
-curut.post(function(req,res,next){
+curut.post(function (req, res, next) {
 
     //validação
-    req.assert('name','Name is required').notEmpty();
-    req.assert('email','A valid email is required').isEmail();
-    req.assert('password','Enter a password 6 - 20').len(6,20);
+    req.assert('name', 'Name is required').notEmpty();
+    req.assert('email', 'A valid email is required').isEmail();
+    req.assert('password', 'Enter a password 6 - 20').len(6, 20);
 
     var errors = req.validationErrors();
-    if(errors){
+    if (errors) {
         res.status(422).json(errors);
         return;
     }
 
     //pega os dados
     var data = {
-        username:req.body.name,
-        email:req.body.email,
-        senha:req.body.password,
-        linhaUtilizada:req.body.linha,
-        bairro:req.body.bairro
-     };
+        username: req.body.name,
+        email: req.body.email,
+        senha: req.body.password,
+        linhaUtilizada: req.body.linha,
+        bairro: req.body.bairro
+    };
 
     //insere no mysql
-    req.getConnection(function (err, conn){
+    req.getConnection(function (err, conn) {
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query("INSERT INTO User set ? ",data, function(err, rows){
+        var query = conn.query("INSERT INTO User set ? ", data, function (err, rows) {
 
-           if(err){
+            if (err) {
                 console.log(err);
                 return next("Mysql error, check your query");
-           }
+            }
 
-          res.sendStatus(200);
+            res.sendStatus(200);
 
         });
 
-     });
+    });
 
 });
 
 //segunda rota!
 var curut2 = router.route('/user/:id');
 
-// U do CRUD -> abre form de edição | GET
-curut2.get(function(req,res,next){
+// U do CRUD -> abre form de edição |  GET
+curut2.get(function (req, res, next) {
 
     var id = req.params.id;
 
-    req.getConnection(function(err,conn){
+    req.getConnection(function (err, conn) {
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query("SELECT * FROM User WHERE id = ? ",[id],function(err,rows){
+        var query = conn.query("SELECT * FROM User WHERE id = ? ", [id], function (err, rows) {
 
-            if(err){
+            if (err) {
                 console.log(err);
                 return next("Mysql error, check your query");
             }
 
             //if user not found
-            if(rows.length < 1)
+            if (rows.length < 1)
                 return res.send("User Not found");
 
-            res.render('edit',{title:"Edit user",data:rows});
+            res.render('edit', {
+                title: "Edit user",
+                data: rows
+            });
         });
 
     });
@@ -150,7 +177,7 @@ curut2.get(function(req,res,next){
 });
 
 //U do CRUD -> agora é a mesma coisa do create | PUT
-curut2.put(function(req,res,next){
+curut2.put(function (req, res, next) {
     var id = req.params.id;
 
     //validação
@@ -159,38 +186,65 @@ curut2.put(function(req,res,next){
     // req.assert('password','Enter a password 6 - 20').len(6,20);
 
     var errors = req.validationErrors();
-    if(errors){
+    if (errors) {
         res.status(422).json(errors);
         return;
     }
 
     //dados
     var data = {
-        senha:req.body.senha,
-        linhaUtilizada:req.body.linha,
-        bairro:req.body.bairro
-     };
+        senha: req.body.senha,
+        linhaUtilizada: req.body.linha,
+        bairro: req.body.bairro
+    };
 
     //coloca no mysql
-    req.getConnection(function (err, conn){
+    req.getConnection(function (err, conn) {
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query("UPDATE User set ? WHERE id = ? ",[data,id], function(err, rows){
+        var query = conn.query("UPDATE User set ? WHERE id = ? ", [data, id], function (err, rows) {
 
-           if(err){
+            if (err) {
                 console.log(err);
                 return next("Mysql error, check your query");
-           }
+            }
 
-          res.sendStatus(200);
+            res.sendStatus(200);
 
         });
 
-     });
+    });
 
 });
 
+var curut3 = router.route('/user/:getLinhas');
+curut3.get(function (req, res, next) {
+
+    req.getConnection(function (err, conn) {
+
+        if (err) return next("Cannot Connect");
+
+        var query = conn.query("SELECT Denominacao_Provisoria FROM linhasOnibus LIMIT 10", function (err, rows) {
+
+            if (err) {
+                console.log(err);
+                return next("Mysql error, check your query");
+            }
+
+            //if user not found
+            if (rows.length < 1)
+                return res.send("User Not found");
+
+            res.render('response', {
+                title: "linhas",
+                linhas: rows
+            });
+        });
+
+    });
+
+});
 /*
 //D do CRUD | DELETE
 curut2.delete(function(req,res,next){
@@ -222,53 +276,53 @@ curut2.delete(function(req,res,next){
 
 
 //Form de edição
-stcurut.get(function(req,res,next){  
-/*        var id = req.params.id;
-    
-        req.getConnection(function(err,conn){
-    
-            if (err) return next("Cannot Connect");
-    
-            var query = conn.query("SELECT * FROM StatusOnibus WHERE id = ? ",[id],function(err,rows){
-    
-                if(err){
-                    console.log(err);
-                    return next("Mysql error, check your query");
-                }
-    
-                //if user not found
-                if(rows.length < 1)
-                    return res.send("User Not found");
-  */  
-                res.render('status');
-            });
+stcurut.get(function (req, res, next) {
+    /*        var id = req.params.id;
+        
+            req.getConnection(function(err,conn){
+        
+                if (err) return next("Cannot Connect");
+        
+                var query = conn.query("SELECT * FROM StatusOnibus WHERE id = ? ",[id],function(err,rows){
+        
+                    if(err){
+                        console.log(err);
+                        return next("Mysql error, check your query");
+                    }
+        
+                    //if user not found
+                    if(rows.length < 1)
+                        return res.send("User Not found");
+      */
+    res.render('status');
+});
 
 
 //Create do Status| POST
-stcurut.post(function(req,res,next){
+stcurut.post(function (req, res, next) {
 
     var errors = req.validationErrors();
-    if(errors){
+    if (errors) {
         res.status(422).json(errors);
         return;
     }
 
     //pega os dados
     var data = {
-        linha:req.body.linha,
-        ponto:req.body.ponto,
-        horario:req.body.horario,
-        lotação:req.body.lotacao
-        };
+        linha: req.body.linha,
+        ponto: req.body.ponto,
+        horario: req.body.horario,
+        lotação: req.body.lotacao
+    };
 
     //insere no mysql
-    req.getConnection(function (err, conn){
+    req.getConnection(function (err, conn) {
 
         if (err) return next("Cannot Connect");
 
-        var query = conn.query("INSERT INTO StatusOnibus set ? ",data, function(err, rows){
+        var query = conn.query("INSERT INTO StatusOnibus set ? ", data, function (err, rows) {
 
-            if(err){
+            if (err) {
                 console.log(err);
                 return next("Mysql error, check your query");
             }
@@ -277,7 +331,7 @@ stcurut.post(function(req,res,next){
 
         });
 
-        });
+    });
 
 });
 
@@ -285,8 +339,8 @@ stcurut.post(function(req,res,next){
 app.use('/api', router);
 
 //start Server
-var server = app.listen(3000,function(){
+var server = app.listen(3000, function () {
 
-   console.log("Listening to port %s",server.address().port);
+    console.log("Listening to port %s", server.address().port);
 
 });
