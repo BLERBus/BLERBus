@@ -1,6 +1,7 @@
 var express = require('express'),
     path = require('path'),
     bodyParser = require('body-parser'),
+    async = require('async'),
     app = express(),
     expressValidator = require('express-validator');
 
@@ -53,51 +54,99 @@ var curut = router.route('/user');
 var stcurut = router.route('/status');
 
 
+
+app.get('/xem', function(req,res){
+    var final = {};
+    async.series({
+        slider: function(cb) {
+            pool.query("SELECT * FROM phim WHERE slider = '1' ORDER BY id DESC Limit 9", function (error, result, client){
+                cb(error, result);
+            })
+        },
+        new: function(cb){
+            pool.query("SELECT * FROM phim WHERE new = '1'", function (error, result, client){
+                cb(error, result)
+            })
+        }
+    }, function(error, results) {
+        if (!error) {
+            res.render('xem', results);
+        }
+    });
+});
+
 //R do CRUD  | GET
 curut.get(function (req, res, next) {
-
-
-    req.getConnection(function (err, conn) {
-
-        if (err) return next("Cannot Connect");
-
-        var query = conn.query('SELECT * FROM User', function (err, rows) {
-
-            if (err) {
-                console.log(err);
-                return next("Mysql error, check your query");
+    var final = {};
+    req.getConnection(function(err, conn){
+        if (err) {
+            console.log(err);
+            return next("Mysql error, check your query");
+        }
+        async.series({
+            data: function(cb){
+                conn.query('SELECT * FROM User', function (error, result, client) {
+                    cb(error, JSON.parse(JSON.stringify(result)));
+                });
+            },
+            linha: function(cb){
+                conn.query('SELECT Denominacao_Provisoria FROM linhasOnibus LIMIT 10', function (error, result, client) {
+                    cb(error, JSON.parse(JSON.stringify(result)));
+                });
             }
-
-            req.data = rows;
-            console.log(req.data);
-            // res.render('user', {title: "RESTful Crud Example", data: rows});
-
-        });
-
-        console.log("passei");
-
-        query = conn.query('SELECT Denominacao_Provisoria FROM linhasOnibus LIMIT 10', function (err, rows) {
-
-            if (err) {
-                console.log(err);
-                return next("Mysql error, check your query");
+        }, function(error, results){
+            console.log(results);
+            if(!error){
+                res.render('user', results);
             }
-
-            req.linhas = rows;
-            // res.render('user', {title: "Linhas de Onibus", lines: rows});7
-
         });
-        console.log(req.data)
-        
-        res.render('user', {
+    })
+
+    // req.getConnection(function (err, conn) {
+    //     var final = {};
+    //     if (err) return next("Cannot Connect");
+
+    //     var query = conn.query('SELECT * FROM User', function (err, rows) {
+
+    //         if (err) {
+    //             console.log(err);
+    //             return next("Mysql error, check your query");
+    //         }
+
+    //         res.render('user', {title: "Linhas de Onibus", data: rows});
             
-            data: req.data,
-            linhas: req.linhas
-        })
+    //         // console.log("alo " + JSON.stringify(data));7
+            
+    //         // console.log(req.data);
+    //         // res.render('user', {title: "RESTful Crud Example", data: rows});
 
-    });
+    //     });
+
+        // console.log(JSON.stringify(data));
+
+        // query = conn.query('SELECT Denominacao_Provisoria FROM linhasOnibus LIMIT 10', function (err, rows) {
+
+        //     if (err) {
+        //         console.log(err);
+        //         return next("Mysql error, check your query");
+        //     }
+
+        //     linhas = rows;
+        //     // res.render('user', {title: "Linhas de Onibus", lines: rows});7
+
+        // });
+
+        
+        
+        // console.log(req.data)
+        // res.render('user', {
+            
+        //     data: JSON.parse(JSON.stringify(data)),
+        //     linhas: linhas
+        // })
 
 });
+
 
 
 //C do CRUD | POST
