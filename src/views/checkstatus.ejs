@@ -1,77 +1,92 @@
 <!-- extended javascript -->
 <!DOCTYPE html>
 <html>
+    <head>
+        <script type="text/javascript" src="/../js/jquery-1.10.2.min.js"></script>
+    </head>
     <div class="page-data">
             
         <form method="post" action="" id="the-form">
             <table cellpadding="11">
                 <tr>
-                    <td class="label">Linha</td><td>: <input type="text" name="name"></td>
+                    <td class="label">Linha</td><td>: <input id="linha" type="text" name="linha"></td>
                     <td>
-                        &nbsp; <input type="button" value="Save" onClick="saveLinha()">
+                        &nbsp; <input type="button" value="Save" id="linhaCheck">
                     </td>
                 </tr>
             </table>
         </form>
     </div>
 
+    <div class="data-table" >
+        <table id = "tabela" border="1" cellpadding="7" cellspacing="7">
+            <tr>
+                <th width="50px">Linha</th>
+                <th>Status</th>
+            </tr>
 
-    <div class="data-table">
-            <table border="1" cellpadding="7" cellspacing="7">
+            <% if (typeof(data) !== 'undefined'){
+                var vazio = 0;
+                var normal = 0;
+                var lotado = 0;
+                for(var i = 0;i < data.length;i++) { 
+                    if (data[i].lotacao=='vazio'){
+                        vazio += 1;
+                    }
+                    else if (data[i].lotacao=='normal'){
+                        normal += 1;
+                    }
+                    else if (data[i].lotacao=='cheio'){
+                        lotado += 1;
+                    }
+                }
+                if (lotado >= normal & lotado >= vazio){
+                    resultado = "lotado";
+                }
+
+                else if(normal > lotado & normal >= vaio){
+                    resultado = "normal";
+                }
+                else {
+                    resultado = "vazio";
+                } %>
+
                 <tr>
-                    <th width="50px">Linha</th>
-                    <th>Status</th>
+                    <%console.log("alo")%>
+                    <%data = JSON.parse(JSON.stringify(data))%>
+                    <td><%=data[0].linha%></td>
+                    <td><%=resultado%></td>
                 </tr>
-                <% if(data.length){
-                    String vazio;
-                    String normal;
-                    String lotado;
-                    String resultado;
 
-                    for(var i = 0;i < data.length;i++) { 
-                        if (data[i].lotação.equals(vazio)){
-                            vazio += 1;
-                        }
-                        else if (data[i].lotação.equals(normal)){
-                            normal += 1;
-                        }
-                        if (data[i].lotação.equals(lotado)){
-                            lotado += 1;
-                        }
-                    }
-                    if (lotado >= normal & lotado >= vazio){
-                        resultado = "lotado";
-                    }
-
-                    else if(normal > lotado & normal >= vaio){
-                        resultado = "normal";
-                    }
-                    else {
-                        resultado = "vazio";
-                    }
-                    %>
-
-                    <tr>
-                        <td><%=data[1].linha%></td>
-                        <td><%=resultado%></td>
-                    </tr>
-
-
+                <% } %>
+    
+    
             </table>
-    </div>
+        </div>
+
+    
 
     <script>
-            
+        $('document').ready(function(){
+            $('#linhaCheck').click(function(){
+                // saveLinha($('.label').val);
+                console.log($('#linha').val());
+                saveLinha();
+                // updateDiv();
+            })
+        });
+
         function saveLinha(){
-            
+            $val = $('#linha').val();
+            json = {'linha': $val}
             $.ajax({
             
             url:"/api/checkstatus",
-            type:"post",
-            data:$("#the-form").serialize(),
+            type:"POST",
+            data: json,
             success:function(res){
-                
-                window.location.reload();
+                console.log(JSON.parse(JSON.stringify(res)));
+                $('#tabela').html(res);
                 return false;
             },
             error:function(xhr, status, error){
@@ -88,7 +103,14 @@
             
             });
         }
+
+        // function updateDiv()
+        // { 
+        //     $( "#tabela" ).load(window.location.href + "#tabela" );
+        // }
     </script>
+
+
 
 
 </html>
