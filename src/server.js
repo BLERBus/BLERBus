@@ -25,7 +25,7 @@ app.use(
     connection(mysql, {
         host: 'localhost',
         user: 'root',
-        password: 'root',
+        password: '1234',
         database: 'blerbus',
         debug: false //set true if you wanna see debug logger
     }, 'request')
@@ -243,7 +243,7 @@ stcurut.post(function (req, res, next) {
         linha: req.body.linha,
         ponto: req.body.ponto,
         horario: req.body.horario,
-        lotação: req.body.lotacao
+        lotacao: req.body.lotacao
     };
 
     //insere no mysql
