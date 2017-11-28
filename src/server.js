@@ -25,7 +25,7 @@ app.use(
     connection(mysql, {
         host: 'localhost',
         user: 'root',
-        password: '1234',
+        password: 'root',
         database: 'blerbus',
         debug: false //set true if you wanna see debug logger
     }, 'request')
@@ -355,25 +355,27 @@ login.get(function (req, res, next) {
 });
 
 login.post(function(req,res,next){
+    console.log("ola")
 
     var data = {
-        username: req.body.login,
+        username: req.body.username,
         senha: req.body.senha
     };
 
     req.getConnection(function(err,conn){
         if (err) return next("Cannot Connect");
 
-        var query = conn.query('SELECT senha FROM User WHERE username = ? LIMIT 1',data.username, function(err, rows){
+        var query = conn.query('SELECT senha FROM User WHERE username = ?',data.username, function(err, rows){
             if (err){
                 return next("Mysql error, check your query");
             }
-            if (data.rows.length > 0) {
-                if(senha == data.rows.senha){
-                    res.send({
-                        "code":200,
-                        "sucess":"Login sucess" }
-                    )
+            if (rows.length > 0) {
+                if(data.senha == rows[0].senha){
+                    // res.send({
+                    //     "code":200,
+                    //     "sucess":"Login sucess" }
+                    // )
+                    res.render('status')
                 }
                 else{
                     res.send({
