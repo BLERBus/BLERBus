@@ -1,0 +1,70 @@
+<!-- views/login.ejs -->
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <style>
+        body        { padding-top:80px; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+<div class="col-sm-6 col-sm-offset-3">
+
+    <h1><span class="fa fa-sign-in"></span> Login</h1>
+
+    <!-- LOGIN FORM -->
+    <form method="post" action="" id="the-form">
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" name="username">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="senha">
+        </div>
+        <button type="submit" class="btn btn-warning btn-lg" onclick="checkUser()">Login</button>
+        <button type="button" class="btn btn-warning btn-lg">Register</button>
+    </form>
+    
+    <hr>
+    <p><a href="/signup">Esqueci minha senha? </a></p>
+</div>
+
+</div>
+
+    <script>
+        function checkUser(){
+            console.log("olo");
+
+            $.ajax({
+            url:"/api/login",
+            type:"post",
+            data:$("#the-form").serialize(),
+            success:function(res){
+                
+                window.location.reload();
+                return false;
+            },
+            error:function(xhr, status, error){
+                
+                console.log(xhr.responseText);
+                var err = '';
+                $.each(JSON.parse(xhr.responseText) , function(i, item) {
+                    
+                    err +='<li>'+item.msg+'</li>';
+                });
+                $(".err-area").html(err);    
+                return false;
+            }
+            
+            });
+        }
+    </script>
+</body>
+</html>
+
+

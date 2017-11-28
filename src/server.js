@@ -4,7 +4,7 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     app = express(),
     expressValidator = require('express-validator');
-
+  
 
 /*Set EJS template Engine*/
 app.set('views', './views');
@@ -52,6 +52,7 @@ router.use(function (req, res, next) {
 var curut = router.route('/user');
 var stcurut = router.route('/status');
 var checkrt = router.route('/checkstatus');
+var login = router.route('/login');
 
 
 //R do CRUD  | GET
@@ -346,6 +347,47 @@ checkrt.post(function (req, res, next) {
     */
 
 
+//Quinta rota Login
+login.get(function (req, res, next) {
+    res.render('login');
+});
+
+login.get(function(req,res,next){
+
+    var data = {
+        username: req.body.login,
+        senha: req.body.senha
+    };
+
+    req.getConnection(function(err,conn){
+        if (err) return next("Cannot Connect");
+
+        var query = conn.query('SELECT senha FROM User WHERE username = ? LIMIT 1',data.username, function(err, rows){
+            if (err){
+                return next("Mysql error, check your query");
+            }
+            if (data.rows.length > 0) {
+                if(senha == data.rows.senha){
+                    res.send({
+                        "code":200,
+                        "sucess":"Login sucess" }
+                    )
+                }
+                else{
+                    res.send({
+                    "code":204,
+                    "sucess":"Error Incorrect Parameter"})
+                }
+            }
+            else{
+               res.send({
+                "code":404,
+                "sucess":"Error"})
+            }                
+        });
+    });
+});
+
     //now we need to apply our router here
     app.use('/api', router);
 
@@ -353,5 +395,4 @@ checkrt.post(function (req, res, next) {
     var server = app.listen(3000, function () {
 
         console.log("Listening to port %s", server.address().port);
-
     });
