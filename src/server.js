@@ -70,6 +70,8 @@ curut.get(function (req, res, next) {
                 return next("Mysql error, check your query");
             }
 
+
+            
             res.render('user', { title: "RESTful Crud Example", data: rows });
 
         });
@@ -352,7 +354,7 @@ login.get(function (req, res, next) {
     res.render('login');
 });
 
-login.get(function(req,res,next){
+login.post(function(req,res,next){
 
     var data = {
         username: req.body.login,
