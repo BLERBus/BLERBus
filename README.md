@@ -53,6 +53,10 @@ load data local infile 'C:/Users/leo_v/Desktop/GitHub/BLERBus/sptrans-linhas.csv
 
 delete from linhasOnibus where codigo="codigo";
 ```
-
+```
+ALTER TABLE StatusOnibus MODIFY linha VARCHAR(200);
+ALTER TABLE StatusOnibus MODIFY ponto VARCHAR(200);
+ALTER TABLE StatusOnibus MODIFY horario VARCHAR(200);
+```
 
 
