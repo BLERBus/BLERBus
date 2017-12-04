@@ -32,10 +32,10 @@ CREATE TABLE StatusOnibus(
 ### Tabela Forum:
 ```mysql
 CREATE TABLE Forum(
-  id          INT(11) not null auto_increment,
+  pergintaId  INT(11) not null auto_increment,
   pergunta    VARCHAR(255) not null,
-  respostas   VARCHAR(255),
-  PRIMARY KEY (ID)
+  respostas   text,
+  PRIMARY KEY (perguntaid)
 );
 ```
 ### Import tabela linhas onibus:
@@ -69,4 +69,15 @@ ALTER TABLE StatusOnibus MODIFY horario VARCHAR(200);
          lotacao VARCHAR(50), 
          isDeleted int, 
          primary key(id ));
+```
+```
+Create Table Respostas(
+respostaId 	int auto_increment  not null,
+resposta 	text not null,
+perguntaId      int  not null,
+autor		varchar(50),
+data		varchar(50),			
+hora		varchar(50),
+PRIMARY KEY(respostaId)
+),
 ```
