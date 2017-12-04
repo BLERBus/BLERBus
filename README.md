@@ -59,4 +59,14 @@ ALTER TABLE StatusOnibus MODIFY ponto VARCHAR(200);
 ALTER TABLE StatusOnibus MODIFY horario VARCHAR(200);
 ```
 
-
+### Concerto de código da tabela StatusOnibus, arrumar depois
+```
+ CREATE TABLE StatusOnibus(
+         id int not null auto_increment, 
+         linha VARCHAR(50) not null, 
+         ponto VARCHAR(50), 
+         horario VARCHAR(50), 
+         lotacao VARCHAR(50), 
+         isDeleted int, 
+         primary key(id ));
+```
