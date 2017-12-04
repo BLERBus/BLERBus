@@ -32,7 +32,7 @@ CREATE TABLE StatusOnibus(
 ### Tabela Forum:
 ```mysql
 CREATE TABLE Forum(
-  pergintaId  INT(11) not null auto_increment,
+  id  INT(11) not null auto_increment,
   pergunta    VARCHAR(255) not null,
   respostas   text,
   PRIMARY KEY (perguntaid)
