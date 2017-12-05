@@ -35,7 +35,7 @@ CREATE TABLE Forum(
   id  INT(11) not null auto_increment,
   pergunta    VARCHAR(255) not null,
   respostas   text,
-  PRIMARY KEY (perguntaid)
+  PRIMARY KEY (ID)
 );
 ```
 ### Import tabela linhas onibus:
